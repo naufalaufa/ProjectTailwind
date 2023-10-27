@@ -7,7 +7,7 @@ const CartMusic = (props) => {
       className="bg-white border border-black p-2  rounded mx-4 flex 
     max-w-[280px]  sm:max-w-[400px] w-[100%] justify-between items-center "
     >
-      <div className=" ">
+      <div>
         <span className="text-black font-bold ">{id}</span>
         <h1 className="text-xl sm:text-2xl font-bold text-black ">{Band}</h1>
         <p className="text-black">{Song}</p>
