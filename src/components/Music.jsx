@@ -3,7 +3,7 @@ import { DataMusic } from "../DataMusic";
 
 const Music = () => {
   return (
-    <div className="bg-gradient-to-t from-slate-300 to-blue-700 rounded">
+    <div className="bg-gradient-to-t from-slate-300 to-blue-700 rounded p-4">
       <h1 className="text-center text-xl sm:text-4xl font-bold p-5">
         Top 10 Favorite Music
       </h1>

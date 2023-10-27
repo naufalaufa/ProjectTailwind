@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 import "swiper/css";
 const Contact = ({ toggleNavbar }) => {
   return (
-    <div className="my-10">
+    <div className="my-20">
       <h1 className="text-xl sm:text-4xl text-center font-bold">
         Lets Connect And Say Hi
       </h1>
