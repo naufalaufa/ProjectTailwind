@@ -17,7 +17,7 @@ const CartProject = ({ img, url, text, article }) => {
               Visit Link
             </a>
           </button>
-          <button className="bg-blue-500 p-2 text-white rounded-xl cursor-pointer hover:bg-slate-500">
+          <button className="bg-blue-500 p-2 text-white rounded-xl cursor-pointer hover:bg-slate">
             <a href={url} target="_blank" rel="noreferrer">
               Source Code
             </a>
