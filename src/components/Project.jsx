@@ -3,7 +3,11 @@ import CartProject from "./CartProject";
 
 const Project = () => {
   return (
-    <div className="h-[100vh] mt-96" data-aos="fade-up" data-aos-delay="300">
+    <div
+      className="mt-[450px] sm:mt-[550px] "
+      data-aos="fade-up"
+      data-aos-delay="300"
+    >
       <div className="text-center text-4xl font-bold ">
         <span className="border-b-4 ">Project</span>
       </div>
