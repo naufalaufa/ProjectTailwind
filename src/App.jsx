@@ -1,7 +1,10 @@
 import { useState } from "react";
 import { About, Navbar, AboutMe, Project, Contact, Footer } from "./components";
 import Music from "./components/Music";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+AOS.init();
 const App = () => {
   const [toggleNavbar, setToggleNavbar] = useState(false);
 

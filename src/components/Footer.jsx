@@ -2,7 +2,10 @@ import { AiFillCopyrightCircle } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-t from-slate-400 to-blue-500 p-5 rounded text-white font-bold  relative text-center">
+    <div
+      data-aos="fade-up"
+      className="bg-gradient-to-t from-slate-400 to-blue-500 p-5 rounded text-white font-bold  relative text-center"
+    >
       <button className="p-2 bg-white text-black rounded px-3 absolute top-[-20px] translate-x-[-10px] border border-solid">
         <a href="#about">^</a>
       </button>

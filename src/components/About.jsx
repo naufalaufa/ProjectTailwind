@@ -4,6 +4,8 @@ import { TypeAnimation } from "react-type-animation";
 const About = () => {
   return (
     <div
+      data-aos="fade-up"
+      data-aos-delay="300"
       id="about"
       className="grid sm:grid-cols-2  h-[100vh] items-center mb-12"
     >
