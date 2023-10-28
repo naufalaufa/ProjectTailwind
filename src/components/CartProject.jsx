@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const CartProject = ({ img, url, text, article }) => {
+const CartProject = ({ img, url, text, article, github }) => {
   return (
     <div className="flex justify-center ">
       <div className="w-[300px]  sm:w-[600px] bg-gradient-to-r from-slate-50 to-blue-400 p-10 rounded-xl gap-5 ">
@@ -18,7 +18,7 @@ const CartProject = ({ img, url, text, article }) => {
             </a>
           </button>
           <button className="bg-blue-500 p-2 text-white rounded-xl cursor-pointer hover:bg-slate">
-            <a href={url} target="_blank" rel="noreferrer">
+            <a href={github} target="_blank" rel="noreferrer">
               Source Code
             </a>
           </button>
@@ -33,6 +33,7 @@ CartProject.propTypes = {
   url: PropTypes.string,
   text: PropTypes.string,
   article: PropTypes.string,
+  github: PropTypes.string,
 };
 
 export default CartProject;
