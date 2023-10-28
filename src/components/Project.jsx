@@ -1,8 +1,17 @@
+import { DataProject } from "../DataProject";
+import CartProject from "./CartProject";
+
 const Project = () => {
   return (
     <div>
-      <h1 className="text-center text-4xl font-bold">Project</h1>
-      <div></div>
+      <div className="text-center text-4xl font-bold ">
+        <span className="border-b-4 ">Project</span>
+      </div>
+      <div className="grid sm:grid-cols-2 gap-4 mt-10">
+        {DataProject.map((item) => {
+          return <CartProject key={item.id} {...item} />;
+        })}
+      </div>
     </div>
   );
 };

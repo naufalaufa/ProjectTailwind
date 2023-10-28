@@ -1,12 +1,20 @@
+import { AiFillCopyrightCircle } from "react-icons/ai";
+
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-t from-slate-400 to-blue-500 p-5 rounded text-white font-bold text-center relative">
-      <span className="absolute cursor-pointer top-[-20px] translate-x-[-20px] shadow-lg bg-white p-2 px-4 rounded-full text-black ">
-        <a className="p-2 font-bold " href="#about">
-          ^
-        </a>
-      </span>
-      <p>Mochamad Naufal Aufa Rifqi 2023</p>
+    <div className="bg-gradient-to-t from-slate-400 to-blue-500 p-5 rounded text-white font-bold  relative text-center">
+      <button className="p-2 bg-white text-black rounded px-3 absolute top-[-20px] translate-x-[-10px] border border-solid">
+        <a href="#about">^</a>
+      </button>
+      <div>
+        <h1 className="text-sm sm:text-xl mt-5">Mochamad Naufal Aufa Rifqi</h1>
+      </div>
+      <div className="flex justify-center mt-5">
+        <p className="flex items-center text-sm font-extralight">
+          {" "}
+          Copyright 2023 <AiFillCopyrightCircle /> All Rights Reserved
+        </p>
+      </div>
     </div>
   );
 };

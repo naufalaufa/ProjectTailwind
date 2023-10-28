@@ -9,8 +9,10 @@ import { AiFillHtml5 } from "react-icons/ai";
 const AboutMe = () => {
   return (
     <div id="aboutme" className="text-center mb-36">
-      <h1 className="text-center text-4xl mb-10 font-bold my-40">About Me</h1>
-      <div className="flex justify-center">
+      <span className="text-center text-4xl mb-10 font-bold my-40 border-b-4">
+        About Me
+      </span>
+      <div className="flex justify-center mt-10">
         <div className="grid  xl:grid-cols-2 items-center">
           <div className="relative">
             <img
