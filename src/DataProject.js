@@ -1,7 +1,7 @@
 export const DataProject = [
   {
     id: 1,
-    img: "src/assets/NETFLIX-NEW-REV.png",
+    img: "assets/NETFLIX-NEW-REV.png",
     url: "https://netflix-clone-naufal.web.app/",
     text: "Netflix Clone",
     article:
@@ -9,7 +9,7 @@ export const DataProject = [
   },
   {
     id: 2,
-    img: "src/assets/hd-query.jpg",
+    img: "assets/hd-query.jpg",
     url: "https://search-cocktail-inky.vercel.app/",
     text: "Cocktail Search Engine",
     article:
