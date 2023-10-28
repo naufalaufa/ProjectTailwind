@@ -28,7 +28,7 @@ const AboutMe = () => {
             </h1>
             <p className="text-sm mb-5 sm:text-sm">
               Iam Front End Developer , focus in user interfaces and user
-              exxperience , familiar with using technologies such as react js ,
+              experience , familiar with using technologies such as react js ,
               tailwind css, javascript, html, css. Live in Jakarta Indonesia.
             </p>
             <div className="flex flex-col gap-4 ">
