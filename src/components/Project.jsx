@@ -4,7 +4,7 @@ import CartProject from "./CartProject";
 const Project = () => {
   return (
     <div
-      className="mt-[450px] sm:mt-[550px] "
+      className="mt-[430px] sm:mt-[700px] md:mt-[400px] lg:mt-[700px] xl:mt-96 "
       data-aos="fade-up"
       data-aos-delay="300"
     >
