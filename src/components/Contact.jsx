@@ -10,7 +10,7 @@ const Contact = ({ toggleNavbar }) => {
       <div className="text-xl sm:text-4xl text-center font-bold">
         <span className="border-b-4">Lets Connect And Say Hi</span>
       </div>
-      <div className="flex flex-col justify-evenly p-10 sm:flex-row  gap-5">
+      <div className="flex flex-col justify-evenly p-10 sm:flex-row gap-5 ">
         <CardComponent
           toggleNavbar={toggleNavbar}
           url={"https://www.linkedin.com/in/naufal-aufa-a7a415257/"}

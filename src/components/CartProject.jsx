@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
+import { AiFillGithub } from "react-icons/ai";
 
 const CartProject = ({ img, url, text, article, github }) => {
   return (
-    <div className="flex justify-center ">
+    <div className="flex justify-center">
       <div className="w-[300px]  sm:w-[600px] bg-gradient-to-r from-slate-50 to-blue-400 p-10 rounded-xl gap-5 ">
         <div>
           <p className="font-bold text-xl sm:text-2xl mb-3">{text}</p>
@@ -12,15 +13,20 @@ const CartProject = ({ img, url, text, article, github }) => {
           <p className="mt-4">{article}</p>
         </article>
         <div className="mt-5 flex gap-5 justify-between">
-          <button className="bg-blue-500 p-2 text-white rounded-xl cursor-pointer hover:bg-slate-500">
+          <button className="bg-blue-500 p-2 text-white rounded-xl cursor-pointer hover:bg-slate-500 font-bold whitespace-nowrap">
             <a href={url} target="_blank" rel="noreferrer">
               Visit Link
             </a>
           </button>
-          <button className="bg-blue-500 p-2 text-white rounded-xl cursor-pointer hover:bg-slate">
-            <a href={github} target="_blank" rel="noreferrer">
-              Source Code
-            </a>
+          <button className="bg-blue-500 p-2 text-white rounded-xl cursor-pointer hover:bg-slate-500 font-bold whitespace-nowrap flex justify-between gap-2 items-center ">
+            <span>
+              <a href={github} target="_blank" rel="noreferrer">
+                Source Code
+              </a>
+            </span>
+            <span>
+              <AiFillGithub size={25} />
+            </span>
           </button>
         </div>
       </div>
