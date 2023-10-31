@@ -1,5 +1,5 @@
 import LogoImage from "../assets/logo-image.png";
-import Resume from "../assets/CV-REVISION-DONES.pdf";
+import Resume from "../../public/CV-REVISION-DONES.pdf";
 import { DiReact } from "react-icons/di";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io";
