@@ -1,12 +1,17 @@
 import LogoImage from "../assets/logo-image.png";
-import Resume from "../../public/CV-REVISION-DONES.pdf";
+import Resume from "/CV-REVISION-DONES.pdf";
 import { DiReact } from "react-icons/di";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiCss3 } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
+import { useDispatch, useSelector } from "react-redux";
+import { ShowBox } from "../features/showbox";
 
 const AboutMe = () => {
+  const dispatch = useDispatch();
+  const { isOpen } = useSelector((state) => state.show);
+
   return (
     <div
       data-aos="fade-up"
@@ -45,10 +50,11 @@ const AboutMe = () => {
               <SiCss3 size={40} />
               <AiFillHtml5 size={40} />
             </div>
-            <button className="bg-blue-500 p-2 rounded-md text-white font-bold translate-y-[-250px] hover:bg-slate-400">
-              <a href={Resume} rel="noreferrer" target="_blank">
-                View Resume
-              </a>
+            <button
+              className="bg-blue-500 p-2 rounded-md text-white font-bold translate-y-[-250px] hover:bg-slate-400"
+              onClick={() => dispatch(ShowBox(!isOpen))}
+            >
+              View Resume
             </button>
           </div>
         </div>

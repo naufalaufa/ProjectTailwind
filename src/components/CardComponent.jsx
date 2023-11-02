@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const CardComponent = ({ logo, text, button, titleText, url }) => {
   return (
-    <div className="rounded p-4">
+    <div className="rounded p-4 ">
       <div className="w-48 h-24">
         <span className="block bg-gradient-to-r from-blue-100 to-blue-500  p-1 text-white rounded text-center">
           {text}
