@@ -26,7 +26,7 @@ const ModalBox = () => {
             </a>
           </button>
           <button
-            className="bg-black text-white p-2 rounded"
+            className="bg-black text-white p-2 rounded font-bold"
             onClick={() => dispatch(CloseBox(!isOpen))}
           >
             CANCEL

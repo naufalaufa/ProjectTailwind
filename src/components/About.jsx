@@ -10,7 +10,7 @@ const About = () => {
       className="grid sm:grid-cols-2  h-[100vh] items-center mb-12 w-full min-w-[300px] m-auto sm:w-full"
     >
       <div className="p-10">
-        <h1 className="text-4xl text-blue-500 font-extrabold mb-5  ">
+        <h1 className="text-4xl text-blue-500 font-extrabold mb-5 bg-gradient-to-r from-slate-100 to-blue-300  p-4 rounded-e-md rounded-b-lg  ">
           Front End Developer
         </h1>
         <div>

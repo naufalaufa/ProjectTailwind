@@ -18,11 +18,15 @@ const App = () => {
     <div
       style={{
         transition: "0.8s",
-        backgroundColor: `${toggleNavbar ? "black" : "white"}`,
+        background: `${
+          toggleNavbar
+            ? "black"
+            : "linear-gradient(#eeefeafa , #eaf , #eeeaffff)"
+        }`,
         color: `${toggleNavbar ? "white" : "black"}`,
       }}
     >
-      <div className="w-[100%] max-w-[95vw] m-auto ">
+      <div className="w-[100%] max-w-[95vw] m-auto">
         {isOpen && <ModalBox />}
         {isOpenContact && <ModalBoxContact />}
         <Navbar toggleNavbar={toggleNavbar} setToggleNavbar={setToggleNavbar} />
