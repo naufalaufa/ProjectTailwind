@@ -17,7 +17,7 @@ const App = () => {
         color: `${toggleNavbar ? "white" : "black"}`,
       }}
     >
-      <div className="w-[95vw] m-auto">
+      <div className="w-[100%] max-w-[95vw] m-auto ">
         <Navbar toggleNavbar={toggleNavbar} setToggleNavbar={setToggleNavbar} />
         <About />
         <AboutMe />

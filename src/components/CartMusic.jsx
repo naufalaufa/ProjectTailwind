@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 const CartMusic = (props) => {
   const { id, Band, Song, Audio } = props;
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center ">
       <div
         className="bg-white border border-black p-2  rounded mx-4 flex 
-    max-w-[280px]  sm:max-w-[400px] w-[100%] justify-between items-center "
+    max-w-[280px]   sm:max-w-[400px] w-[100%] justify-between items-center "
       >
         <div>
           <span className="text-black font-bold ">{id}</span>

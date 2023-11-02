@@ -12,7 +12,7 @@ const AboutMe = () => {
       data-aos="fade-up"
       data-aos-delay="300"
       id="aboutme"
-      className="text-center mb-36 h-[100vh]"
+      className="text-center w-full min-w-[300px] m-auto sm:w-full max-h-[500px] h-full mt-[200px]  "
     >
       <span className="text-center text-4xl mb-10 font-bold my-40 border-b-4">
         About Me
