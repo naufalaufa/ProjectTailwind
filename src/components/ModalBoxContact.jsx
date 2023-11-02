@@ -19,11 +19,12 @@ const ModalBoxContact = () => {
           please leave a message
         </h1>
         <div className="mt-20 flex justify-between">
-          <button className="bg-white p-2 rounded font-bold hover:bg-black hover:text-white ">
+          <button className="bg-white p-2 rounded font-bold">
             <a
               href="mailto:muhammadnaufalaufarifqi@gmail.com"
               target="_blank"
               rel="norefferer noreferrer"
+              className="text-black"
             >
               SEND MESSAGE
             </a>

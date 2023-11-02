@@ -15,8 +15,13 @@ const ModalBox = () => {
           View Resume ?{" "}
         </h1>
         <div className="flex justify-between mt-20">
-          <button className="bg-white p-2 rounded font-bold px-4">
-            <a href={CV} target="_blank" rel="noreferrer">
+          <button className="bg-white p-2 rounded font-bold px-4 ">
+            <a
+              href={CV}
+              target="_blank"
+              rel="noreferrer"
+              className="text-black  "
+            >
               YES
             </a>
           </button>
