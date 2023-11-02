@@ -6,10 +6,12 @@ import "aos/dist/aos.css";
 import "./App.css";
 import { useSelector } from "react-redux";
 import ModalBox from "./components/ModalBox";
+import ModalBoxContact from "./components/ModalBoxContact";
 
 AOS.init();
 const App = () => {
   const { isOpen } = useSelector((state) => state.show);
+  const { isOpenContact } = useSelector((state) => state.showContact);
   const [toggleNavbar, setToggleNavbar] = useState(false);
 
   return (
@@ -22,6 +24,7 @@ const App = () => {
     >
       <div className="w-[100%] max-w-[95vw] m-auto ">
         {isOpen && <ModalBox />}
+        {isOpenContact && <ModalBoxContact />}
         <Navbar toggleNavbar={toggleNavbar} setToggleNavbar={setToggleNavbar} />
         <About />
         <AboutMe />

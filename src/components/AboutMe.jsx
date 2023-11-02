@@ -1,5 +1,4 @@
 import LogoImage from "../assets/logo-image.png";
-import Resume from "/CV-REVISION-DONES.pdf";
 import { DiReact } from "react-icons/di";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io";
@@ -7,10 +6,12 @@ import { SiCss3 } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import { ShowBox } from "../features/showbox";
+import { showBoxContact } from "../features/showBoxContact";
 
 const AboutMe = () => {
   const dispatch = useDispatch();
   const { isOpen } = useSelector((state) => state.show);
+  const { isOpenContact } = useSelector((state) => state.showContact);
 
   return (
     <div
@@ -30,8 +31,11 @@ const AboutMe = () => {
               alt={LogoImage}
               className="w-[100%] max-w-[600px] bg-gradient-to-r from-blue-100 to-blue-500 rounded-md mb-5 m-auto"
             />
-            <button className="absolute top-0 bg-blue-500 p-2 text-white font-bold rounded-sm px-4 hover:bg-slate-400">
-              <a href="mailto:muhammadnaufalaufarifqi@gmail.com">CONTACT ME</a>
+            <button
+              className="absolute top-0 bg-blue-500 p-2 text-white font-bold rounded-sm px-4 hover:bg-slate-400"
+              onClick={() => dispatch(showBoxContact(!isOpenContact))}
+            >
+              Contact Me
             </button>
           </div>
           <div className="relative">
