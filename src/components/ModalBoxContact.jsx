@@ -15,7 +15,7 @@ const ModalBoxContact = () => {
             interested in me ?
           </span>
           <br />
-          or want to invite you to drink coffee🍵 ? <br />
+          Or do you want to invite me for coffee?🍵 ? <br />
           please leave a message
         </h1>
         <div className="mt-20 flex justify-between">
