@@ -15,7 +15,7 @@ const ModalBox = () => {
           View Resume ?{" "}
         </h1>
         <div className="flex justify-between mt-20">
-          <button className="bg-white p-2 rounded font-bold px-4 ">
+          <button className="bg-white p-2 rounded font-bold px-4 text-sm">
             <a
               href={CV}
               target="_blank"
@@ -26,7 +26,7 @@ const ModalBox = () => {
             </a>
           </button>
           <button
-            className="bg-black text-white p-2 rounded font-bold"
+            className="bg-black text-white p-2 rounded font-bold text-sm"
             onClick={() => dispatch(CloseBox(!isOpen))}
           >
             CANCEL

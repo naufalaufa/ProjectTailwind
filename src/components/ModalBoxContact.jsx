@@ -18,19 +18,19 @@ const ModalBoxContact = () => {
           Or do you want to invite me for coffee?🍵 ? <br />
           please leave a message
         </h1>
-        <div className="mt-20 flex justify-between">
-          <button className="bg-white p-2 rounded font-bold">
+        <div className="mt-20 flex justify-between gap-10 whitespace-nowrap ">
+          <button className="bg-white p-2 rounded font-bold  text-sm">
             <a
               href="mailto:muhammadnaufalaufarifqi@gmail.com"
               target="_blank"
               rel="norefferer noreferrer"
-              className="text-black"
+              className="text-black "
             >
               SEND MESSAGE
             </a>
           </button>
           <button
-            className="bg-black text-white p-2 rounded hover:bg-white hover:text-black"
+            className="bg-black text-sm text-white p-2 rounded hover:bg-white hover:text-black"
             onClick={() => dispatch(closeBoxContact(!isOpenContact))}
           >
             CANCEL

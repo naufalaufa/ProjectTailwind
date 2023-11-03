@@ -18,7 +18,7 @@ const AboutMe = () => {
       data-aos="fade-up"
       data-aos-delay="300"
       id="aboutme"
-      className="text-center w-full min-w-[300px] m-auto sm:w-full  max-h-[500px]  mt-[200px]  "
+      className="text-center w-full min-w-[300px] m-auto sm:w-full  max-h-[500px]  mt-[250px]  "
     >
       <span className="text-center text-4xl mb-10 font-bold my-40 border-b-4">
         About Me
