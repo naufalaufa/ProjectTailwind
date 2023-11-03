@@ -66,7 +66,7 @@ export const DataMusic = [
     id: 10,
     Band: "Dewa 19",
     Song: "Kamulah Satu Satunya",
-    Audio: "Dewa19-Kamulah.mp3",
+    Audio: "public/MusicFolder/Dewa19-Kamulah.mp3",
     Image: "dewa19.jpg",
   },
 ];
