@@ -6,7 +6,7 @@ const Music = () => {
     <div
       data-aos-delay="300"
       data-aos="fade-up"
-      className="bg-gradient-to-t w-full min-w-[300px] sm:w-full m-auto from-slate-300 to-blue-700 rounded py-4 mt-8 sm:mt-32 "
+      className=" w-full min-w-[300px] sm:w-full m-auto bg-gradient-to-r from-green-950 to-slate-600 text-white rounded py-4 mt-8 sm:mt-32 "
     >
       <h1 className="text-center text-xl sm:text-4xl font-bold p-5">
         Top 10 Favorite Music
