@@ -47,8 +47,8 @@ const AboutMe = () => {
               experience , familiar with using technologies such as react js ,
               tailwind css, javascript, html, css. Live in Jakarta Indonesia.
             </p>
-            <h1 className="text-blue-500 text-2xl p-2 rounded font-bold  ">
-              Tech Stack Overview
+            <h1 className="text-2xl p-2 rounded font-bold  ">
+              Tech Stack <span className="text-blue-500">Overview</span>
             </h1>
             <div className="flex justify-center mt-5 flex-wrap gap-4 ">
               <DiReact size={40} />
