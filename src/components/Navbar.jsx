@@ -3,7 +3,10 @@ import { BsFillSunFill } from "react-icons/bs";
 import PropsTypes from "prop-types";
 const Navbar = ({ toggleNavbar, setToggleNavbar }) => {
   return (
-    <nav className="mx-auto w-full min-w-[300px] sm:w-full flex px-8 py-4 sm:flex justify-between items-center mb-10 ">
+    <nav
+      id="navbar"
+      className="mx-auto w-full min-w-[300px] sm:w-full flex px-8 py-4 sm:flex justify-between items-center mb-10"
+    >
       <h2 className="font-bold text-sm tracking-wide capitalize sm:text-2xl">
         Mochamad Naufal Aufa Rifqi
       </h2>

@@ -1,7 +1,15 @@
 import PropTypes from "prop-types";
+import { BsFillHeartFill } from "react-icons/bs";
+import { useSelector } from "react-redux";
 
 const CartMusic = (props) => {
+  const { isLove } = useSelector((state) => state.likeMusic);
+
   const { id, Band, Song, Audio, Image } = props;
+  const handleClickLike = (idMusic) => {
+    console.log(idMusic);
+  };
+
   return (
     <div className="flex flex-col justify-center m-auto items-center bg-black/50  rounded w-full max-w-[300px] p-6 sm:max-w-[400px]">
       <div
@@ -16,9 +24,23 @@ const CartMusic = (props) => {
       </div>
       <div>
         <div className="mt-3">
-          <span className="text-white font-bold">{id}</span>
-          <h1 className="text-xl sm:text-2xl font-bold text-white  ">{Band}</h1>
-          <p className="text-white mb-5">{Song}</p>
+          <div className="flex items-center justify-between">
+            <div>
+              <span className="text-white font-bold">{id}</span>
+              <h1 className="text-xl sm:text-2xl font-bold text-white  ">
+                {Band}
+              </h1>
+              <p className="text-white mb-5">{Song}</p>
+            </div>
+            <div>
+              <BsFillHeartFill
+                cursor="pointer"
+                onClick={() => handleClickLike(id)}
+                color={isLove ? "red" : "white"}
+                size={30}
+              />
+            </div>
+          </div>
           <audio style={{ width: "255px" }} controls src={Audio}>
             <source src={Audio} />
           </audio>

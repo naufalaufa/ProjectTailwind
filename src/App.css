@@ -5,6 +5,11 @@
   scroll-behavior: smooth;
 }
 
+.nav-links {
+  background-color: white;
+  transition: 0.8s;
+}
+
 img {
   width: 100%;
   height: 100%;

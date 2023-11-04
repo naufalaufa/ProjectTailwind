@@ -3,8 +3,8 @@ import { DataMusic } from "../DataMusic";
 
 const Music = () => {
   return (
-    <div className="w-full min-w-[300px] sm:w-full m-auto rounded py-4 mt-8 sm:mt-32 ">
-      <div className="text-center text-2xl mb-5">
+    <div className="w-full min-w-[300px] sm:w-full m-auto rounded py-4 mt-32 sm:mt-32  ">
+      <div className="text-center text-4xl mb-5">
         <span
           data-aos="zoom-in"
           data-aos-delay="200"
