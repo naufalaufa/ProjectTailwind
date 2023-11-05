@@ -8,7 +8,7 @@ const Contact = ({ toggleNavbar }) => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-delay="300"
+      data-aos-delay="200"
       className="my-20 w-full min-w-[300px] m-auto"
     >
       <div className="text-xl sm:text-4xl text-center font-bold">

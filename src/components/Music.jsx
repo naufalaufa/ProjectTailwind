@@ -14,7 +14,7 @@ const Music = () => {
         </span>
       </div>
       <div
-        data-aos-delay="300"
+        data-aos-delay="200"
         data-aos="fade-up"
         className=" bg-gradient-to-r from-green-950 to-slate-600 text-white py-5 rounded"
       >
