@@ -23,7 +23,7 @@ const ChatBuble = () => {
         <div
           className="chat chat-end"
           data-aos="fade-down"
-          data-aos-delay="200"
+          data-aos-delay="300"
         >
           <div className="chat-image avatar">
             <div className="w-10 rounded-full">
@@ -34,7 +34,7 @@ const ChatBuble = () => {
             Anonymous
             <time className="text-xs opacity-50">12:46</time>
           </div>
-          <div className="chat-bubble text-sm">Hi pal</div>
+          <div className="chat-bubble text-sm">Hi Naufal</div>
           <div className="chat-bubble text-sm">
             Life is too short to think about what other people say
           </div>
@@ -46,7 +46,7 @@ const ChatBuble = () => {
         <div
           className="chat chat-start"
           data-aos="fade-up"
-          data-aos-delay="200"
+          data-aos-delay="300"
         >
           <div className="chat-image avatar">
             <div className="w-10 rounded-full">
