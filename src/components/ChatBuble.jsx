@@ -5,7 +5,7 @@ const ChatBuble = () => {
   return (
     <div className="flex justify-center mt-20 sm:mt-64 md:mt-[300px] lg:mt-[300px] xl:mt-5">
       <div className="w-full h-full max-w-[1000px] m-auto mt-[700px] ">
-        <div className="chat chat-start " data-aos="fade-right">
+        <div className="chat chat-start " data-aos="fade-up">
           <div className="chat-image avatar">
             <div className="w-10 rounded-full">
               <img src={meee} className="object-contain bg-center" />
@@ -22,7 +22,7 @@ const ChatBuble = () => {
         </div>
         <div
           className="chat chat-end"
-          data-aos="fade-left"
+          data-aos="fade-down"
           data-aos-delay="200"
         >
           <div className="chat-image avatar">
@@ -45,7 +45,7 @@ const ChatBuble = () => {
         </div>
         <div
           className="chat chat-start"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-delay="200"
         >
           <div className="chat-image avatar">
