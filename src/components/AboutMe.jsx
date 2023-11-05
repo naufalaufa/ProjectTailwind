@@ -34,10 +34,10 @@ const AboutMe = () => {
             <img
               src={LogoImage}
               alt={LogoImage}
-              className="w-[100%] max-w-[600px] bg-gradient-to-r from-blue-100 to-blue-500 rounded-md mb-5 m-auto"
+              className="w-[100%] max-w-[600px] bg-gradient-to-r from-blue-100 to-blue-500 shadow-lg shadow-slate-800 rounded-md mb-5 m-auto"
             />
             <button
-              className="absolute top-0 bg-blue-500 p-2 text-white font-bold rounded-sm px-4 hover:bg-slate-400"
+              className="absolute top-0 bg-blue-500 p-2 shadow-md shadow-slate-600 text-white font-bold rounded-sm px-4 hover:bg-slate-400"
               onClick={() => dispatch(showBoxContact(!isOpenContact))}
             >
               Contact Me
@@ -45,7 +45,7 @@ const AboutMe = () => {
           </div>
           <div className="relative">
             <h1 className="text-2xl sm:text-4xl mb-5">
-              Hi iam <span className="text-blue-500 font-bold">Naufal </span>
+              Hi iam <span className="text-blue-500 font-bold ">Naufal </span>
             </h1>
 
             <p className="text-sm mb-10 sm:text-sm">
@@ -79,14 +79,34 @@ const AboutMe = () => {
               Tech Stack <span className="text-blue-500">Overview</span>
             </h1>
             <div className="flex justify-center mt-5 flex-wrap gap-4 ">
-              <DiReact size={40} />
-              <SiRedux size={40} />
-              <BiLogoTailwindCss size={40} />
-              <IoLogoJavascript size={40} />
-              <SiDaisyui size={40} />
-              <BsGit size={40} />
-              <SiCss3 size={40} />
-              <AiFillHtml5 size={40} />
+              <DiReact size={40} className="shadow-md shadow-slate-500" />
+              <SiRedux
+                size={40}
+                color="blue"
+                className="shadow-md shadow-slate-500 p-1"
+              />
+              <BiLogoTailwindCss
+                size={40}
+                color=""
+                className="text-slate-100 shadow-md shadow-slate-500 "
+              />
+              <IoLogoJavascript
+                size={40}
+                className="text-yellow-400 p-2 shadow-md shadow-slate-500"
+              />
+              <SiDaisyui size={40} className="shadow-md shadow-slate-500 p-1" />
+              <BsGit
+                size={40}
+                className="text-red-500 shadow-slate-500 shadow-md p-1"
+              />
+              <SiCss3
+                size={40}
+                className="text-blue-600 shadow-md shadow-slate-500 p-1"
+              />
+              <AiFillHtml5
+                size={40}
+                className="text-red-500 shadow-md shadow-slate-500 "
+              />
             </div>
           </div>
         </div>

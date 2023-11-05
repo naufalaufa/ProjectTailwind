@@ -13,7 +13,7 @@ const Navbar = ({ toggleNavbar, setToggleNavbar }) => {
       <span
         style={{ cursor: "pointer" }}
         onClick={() => setToggleNavbar(!toggleNavbar)}
-        className="bg-slate-200 p-2 rounded-xl "
+        className="bg-slate-300 p-2 rounded-xl shadow-sm shadow-slate-400 "
       >
         {toggleNavbar ? (
           <BsFillSunFill className="text-black" size={30} />

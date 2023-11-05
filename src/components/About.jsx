@@ -10,7 +10,7 @@ const About = () => {
       className="grid sm:grid-cols-2  h-[100vh] items-center mb-12 w-full min-w-[300px] m-auto sm:w-full"
     >
       <div className="p-10">
-        <h1 className="text-4xl text-blue-500 font-extrabold mb-5 bg-gradient-to-r from-slate-100 to-blue-300  p-4 rounded-e-md rounded-b-lg  ">
+        <h1 className="text-4xl text-blue-500 font-extrabold mb-5 bg-gradient-to-r from-slate-100 to-blue-300  p-4 rounded-e-md rounded-b-lg shadow-sm shadow-slate-800  ">
           Front End Developer
         </h1>
         <div>
@@ -23,7 +23,7 @@ const About = () => {
             ]}
           />
         </div>
-        <button className="bg-blue-500 p-2 text-white rounded-2xl px-5 mt-5 hover:bg-slate-400">
+        <button className="bg-blue-500 p-2 text-white rounded-2xl px-5 mt-5 hover:bg-slate-400 shadow-sm shadow-slate-800">
           <a href="#aboutme" className="font-extrabold">
             Show More
           </a>
