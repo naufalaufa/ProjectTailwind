@@ -8,6 +8,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { showBoxContact } from "../features/showBoxContact";
 import { SiRedux } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
+import { SiDaisyui } from "react-icons/si";
+import Me from "../assets/me.jpg";
+import Meee from "../assets/meee.jpg";
+import cibereum from "../assets/cibereum.jpg";
+import akoh from "../assets/akoh.jpg";
 
 const AboutMe = () => {
   const dispatch = useDispatch();
@@ -42,11 +47,34 @@ const AboutMe = () => {
             <h1 className="text-2xl sm:text-4xl mb-5">
               Hi iam <span className="text-blue-500 font-bold">Naufal </span>
             </h1>
-            <p className="text-sm mb-20 sm:text-sm">
+
+            <p className="text-sm mb-10 sm:text-sm">
               Iam Front End Developer , focus in user interfaces and user
               experience , familiar with using technologies such as react js ,
               tailwind css, javascript, html, css. Live in Jakarta Indonesia.
             </p>
+            <div className="avatar-group -space-x-5 flex justify-center mb-10">
+              <div className="avatar">
+                <div className="w-12">
+                  <img src={Me} alt="error" />
+                </div>
+              </div>
+              <div className="avatar">
+                <div className="w-12">
+                  <img src={Meee} alt="error" />
+                </div>
+              </div>
+              <div className="avatar">
+                <div className="w-12">
+                  <img src={cibereum} alt="error" />
+                </div>
+              </div>
+              <div className="avatar placeholder">
+                <div className="w-12 bg-neutral-focus text-neutral-content">
+                  <img src={akoh} alt="error" />
+                </div>
+              </div>
+            </div>
             <h1 className="text-2xl p-2 rounded font-bold  ">
               Tech Stack <span className="text-blue-500">Overview</span>
             </h1>
@@ -55,6 +83,7 @@ const AboutMe = () => {
               <SiRedux size={40} />
               <BiLogoTailwindCss size={40} />
               <IoLogoJavascript size={40} />
+              <SiDaisyui size={40} />
               <BsGit size={40} />
               <SiCss3 size={40} />
               <AiFillHtml5 size={40} />

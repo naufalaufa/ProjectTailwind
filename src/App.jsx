@@ -7,6 +7,7 @@ import "./App.css";
 import { useSelector } from "react-redux";
 import ModalBox from "./components/ModalBox";
 import ModalBoxContact from "./components/ModalBoxContact";
+import ChatBuble from "./components/ChatBuble";
 
 AOS.init();
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
         <Navbar toggleNavbar={toggleNavbar} setToggleNavbar={setToggleNavbar} />
         <About />
         <AboutMe />
+        <ChatBuble />
         <Project />
         <Music />
         <Contact />
