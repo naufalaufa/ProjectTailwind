@@ -1,19 +1,49 @@
 import { AiFillCopyrightCircle } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
+import { SiTiktok } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-t from-slate-400 to-blue-500 p-5 rounded text-white font-bold  relative text-center mt-5 w-full min-w-[300px] ">
-      <button className="p-2 bg-white text-black rounded px-3 absolute top-[-20px] translate-x-[-10px] border border-solid">
+    <div className="grid place-items-center bg-slate-800 p-5 rounded text-white font-bold relative mt-5 w-full min-w-[300px] sm:grid sm:grid-cols-2 sm:place-items-center">
+      <button className="p-2 bg-white text-black rounded px-3 absolute top-[-20px] translate-x-[5px] border border-solid shadow-md shadow-slate-700">
         <a href="#about">^</a>
       </button>
       <div>
-        <h1 className="text-sm sm:text-xl mt-5">Mochamad Naufal Aufa Rifqi</h1>
-      </div>
-      <div className="flex justify-center mt-5">
-        <p className="flex items-center text-sm font-extralight">
-          {" "}
-          Copyright 2023 <AiFillCopyrightCircle /> All Rights Reserved
+        <h1 className="text-sm sm:text-2xl mt-5 whitespace-nowrap ">
+          Mochamad Naufal Aufa Rifqi
+        </h1>
+        <p className="flex justify-center text-sm font-extralight my-2 sm:justify-normal">
+          All rights reserved{" "}
+          <AiFillCopyrightCircle className="ml-1" size={20} />
         </p>
+        <p className="mt-2 text-xs font-light">
+          Mochamad Naufal Aufa Rifqi 2023{" "}
+        </p>
+      </div>
+      <div>
+        <h1 className="my-2">Get In Touch!</h1>
+        <div className="flex gap-5 justify-center">
+          <a
+            href="mailto:muhamadnaufalaufarifqi@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <MdEmail
+              size={30}
+              className="shadow-md shadow-slate-400 p-1 cursor-pointer "
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.tiktok.com/@tememp1k_?_t=8h7ihR0DwH9&_r=1"
+            rel="noreferrer"
+          >
+            <SiTiktok
+              size={30}
+              className="shadow-md shadow-slate-400 p-1 cursor-pointer"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );

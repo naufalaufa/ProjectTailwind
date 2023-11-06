@@ -1,20 +1,28 @@
 import PropTypes from "prop-types";
 import { BsFillHeartFill } from "react-icons/bs";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { Like } from "../features/likeMusic";
+import { toast } from "react-toastify";
 
 const CartMusic = (props) => {
   const { isLove } = useSelector((state) => state.likeMusic);
 
   const { id, Band, Song, Audio, Image } = props;
+  const dispatch = useDispatch();
   const handleClickLike = (idMusic) => {
-    console.log(idMusic);
+    dispatch(Like(!isLove));
+    if (isLove === true) {
+      toast.info(`Unlike ${Song}`);
+    } else {
+      toast.success(`Like ${Song}`);
+    }
   };
 
   return (
-    <div className="flex flex-col justify-center m-auto items-center bg-black/50  rounded w-full max-w-[300px] p-6 sm:max-w-[400px]">
+    <div className="flex flex-col justify-center m-auto items-center bg-black/50  rounded w-full max-w-[300px] p-6 sm:max-w-[400px] shadow-md shadow-slate-600">
       <div
-        className=" bg-gray-950 p-2 rounded mx-4 flex 
-    max-w-[280px] sm:max-w-[400px] w-[100%] justify-between items-center"
+        className=" bg-gray-950 p-2 rounded mx-4 flex shadow-md shadow-slate-800
+    max-w-[280px] sm:max-w-[400px] w-[100%] h-[200px] justify-between items-center"
       >
         <img
           src={Image}

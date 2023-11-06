@@ -5,9 +5,9 @@ const Navbar = ({ toggleNavbar, setToggleNavbar }) => {
   return (
     <nav
       id="navbar"
-      className="mx-auto w-full min-w-[300px] sm:w-full flex px-8 py-4 sm:flex justify-between items-center mb-10"
+      className="mx-auto w-full min-w-[300px] sm:w-full flex px-8 py-4 sm:flex justify-between items-center mb-10 "
     >
-      <h2 className="font-bold text-sm tracking-wide capitalize sm:text-2xl">
+      <h2 className="font-bold text-xs tracking-wide capitalize sm:text-2xl whitespace-nowrap">
         Mochamad Naufal Aufa Rifqi
       </h2>
       <span

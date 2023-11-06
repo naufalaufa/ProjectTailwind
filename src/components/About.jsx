@@ -7,10 +7,15 @@ const About = () => {
       data-aos="fade-up"
       data-aos-delay="300"
       id="about"
-      className="grid sm:grid-cols-2  h-[100vh] items-center mb-12 w-full min-w-[300px] m-auto sm:w-full"
+      className="grid sm:grid-cols-2  h-[100vh] items-center mb-12 w-full min-w-[300px] m-auto sm:w-full "
     >
       <div className="p-10">
-        <h1 className="text-4xl text-blue-500 font-extrabold mb-5 bg-gradient-to-r from-slate-100 to-blue-300  p-4 rounded-e-md rounded-b-lg shadow-sm shadow-slate-800  ">
+        <div className="mb-10">
+          <span className=" font-bold  border-b-4 border-solid sm:hidden">
+            <span className="text-blue-500 text-3xl">N</span>aufaL
+          </span>
+        </div>
+        <h1 className="text-4xl text-blue-500 font-extrabold mb-5 bg-gradient-to-r from-slate-100 to-blue-300  p-4 rounded-e-md rounded-b-lg shadow-sm shadow-slate-800 z-20 ">
           Front End Developer
         </h1>
         <div>
@@ -32,7 +37,7 @@ const About = () => {
       <div>
         <img
           src={LogoIcon}
-          className="w-[100%] max-w-[400px] max-h-[400px] m-auto"
+          className=" sm:w-[100%] max-w-[400px] max-h-[400px] m-auto hidden sm:block"
           alt="error"
         />
       </div>

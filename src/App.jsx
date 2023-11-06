@@ -8,6 +8,8 @@ import { useSelector } from "react-redux";
 import ModalBox from "./components/ModalBox";
 import ModalBoxContact from "./components/ModalBoxContact";
 import ChatBuble from "./components/ChatBuble";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 AOS.init();
 const App = () => {
@@ -28,6 +30,7 @@ const App = () => {
       }}
     >
       <div className="w-[100%] max-w-[95vw] m-auto">
+        <ToastContainer position="top-center" autoClose={50} />
         {isOpen && <ModalBox />}
         {isOpenContact && <ModalBoxContact />}
         <Navbar toggleNavbar={toggleNavbar} setToggleNavbar={setToggleNavbar} />

@@ -48,7 +48,7 @@ const AboutMe = () => {
               Hi iam <span className="text-blue-500 font-bold ">Naufal </span>
             </h1>
 
-            <p className="text-sm mb-10 sm:text-sm">
+            <p className="text-sm mb-10 sm:text-sm max-w-xl m-auto lg:max-w-md ">
               Iam Front End Developer , focus in user interfaces and user
               experience , familiar with using technologies such as react js ,
               tailwind css, javascript, html, css. Live in Jakarta Indonesia.
