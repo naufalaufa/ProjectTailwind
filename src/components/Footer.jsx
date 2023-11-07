@@ -16,7 +16,7 @@ const Footer = () => {
           All rights reserved{" "}
           <AiFillCopyrightCircle className="ml-1" size={20} />
         </p>
-        <p className="mt-2 text-xs font-light">
+        <p className="mt-2 text-center text-xs font-light sm:text-left">
           Mochamad Naufal Aufa Rifqi 2023{" "}
         </p>
       </div>
