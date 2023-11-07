@@ -10,17 +10,20 @@ const Navbar = ({ toggleNavbar, setToggleNavbar }) => {
       <h2 className="font-bold text-xs tracking-wide capitalize sm:text-2xl whitespace-nowrap">
         Mochamad Naufal Aufa Rifqi
       </h2>
-      <span
-        style={{ cursor: "pointer" }}
+      <button
+        className="p-2 bg-slate-300 rounded-md shadow-lg shadow-slate-800"
         onClick={() => setToggleNavbar(!toggleNavbar)}
-        className="bg-slate-300 p-2 rounded-xl shadow-sm shadow-slate-400 "
       >
         {toggleNavbar ? (
-          <BsFillSunFill className="text-black" size={30} />
+          <span>
+            <BsFillSunFill className="h-5 w-5 sm:w-9 sm:h-9  text-black" />
+          </span>
         ) : (
-          <IoMdMoon size={30} />
+          <span>
+            <IoMdMoon className="h-5 w-5 sm:w-9 sm:h-9 " />
+          </span>
         )}
-      </span>
+      </button>
     </nav>
   );
 };

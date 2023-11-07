@@ -15,4 +15,4 @@ const likeMusic = createSlice({
 });
 
 export default likeMusic.reducer;
-export const { CloseLike, Like } = likeMusic.actions;
+export const { Like } = likeMusic.actions;

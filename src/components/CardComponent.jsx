@@ -10,7 +10,7 @@ const CardComponent = ({ logo, text, button, titleText, url }) => {
         <div className=" inline-block p-1 rounded">{logo}</div>
       </div>
       <p className="font-bold my-1">{titleText}</p>
-      <button className="bg-gradient-to-r from-blue-300 to-blue-500 text-white font-bold p-2 rounded shadow-sm shadow-slate-800">
+      <button className="bg-gradient-to-r from-blue-300 to-blue-500 text-white font-bold p-2 rounded shadow-sm shadow-slate-800 hover:shadow-md ">
         <a href={url} target="_blank" rel="noreferrer">
           {button}
         </a>
