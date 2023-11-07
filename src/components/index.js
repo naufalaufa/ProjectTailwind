@@ -7,4 +7,3 @@ export { default as Navbar } from "./Navbar";
 export { default as Project } from "./Project";
 export { default as Music } from "./Music";
 export { default as CartMusic } from "./CartMusic";
-export { default as Shadow } from "./Shadow";
