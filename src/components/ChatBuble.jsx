@@ -21,7 +21,7 @@ const ChatBuble = () => {
             Naufal Aufa
             <time className="text-xs opacity-50"> {concatedTimesStrings}</time>
           </div>
-          <div className="chat-bubble text-sm">
+          <div className="chat-bubble text-sm 2xl:text-xl">
             <TypeAnimation
               sequence={["I think too much about what people say"]}
               speed={200}
@@ -43,10 +43,10 @@ const ChatBuble = () => {
             Anonymous
             <time className="text-xs opacity-50"> {concatedTimesStrings}</time>
           </div>
-          <div className="chat-bubble text-sm">
+          <div className="chat-bubble text-sm 2xl:text-xl">
             <TypeAnimation sequence={["Hi Naufal"]} speed={400} />
           </div>
-          <div className="chat-bubble text-sm">
+          <div className="chat-bubble text-sm 2xl:text-xl">
             <TypeAnimation
               sequence={[
                 "Life is too short to think about what other people say",
@@ -54,9 +54,9 @@ const ChatBuble = () => {
               speed={200}
             />
           </div>
-          <div className="chat-bubble text-sm mt-2">
+          <div className="chat-bubble text-sm mt-2 2xl:text-xl">
             <TypeAnimation
-              sequence={["Do your best , YOU CANT DO IT!"]}
+              sequence={["Do your best, what you can"]}
               speed={50}
             />
           </div>
@@ -78,7 +78,7 @@ const ChatBuble = () => {
             Naufal Aufa
             <time className="text-xs opacity-50"> {concatedTimesStrings}</time>
           </div>
-          <div className="chat-bubble text-sm">
+          <div className="chat-bubble text-sm 2xl:text-xl">
             <TypeAnimation sequence={["SURE!, lets ` do it"]} />
           </div>
           <div className="chat-footer opacity-50">Delivered</div>

@@ -12,7 +12,7 @@ const Contact = ({ toggleNavbar }) => {
       className="my-20 w-full min-w-[300px] m-auto"
     >
       <div className="text-xl sm:text-4xl text-center font-bold">
-        <span className="border-b-4">Lets Connect And Say Hi</span>
+        <span className="border-b-4 2xl:text-5xl">Lets Connect And Say Hi</span>
       </div>
       <div className="flex flex-col justify-evenly p-10 sm:flex-row gap-5  ">
         <CardComponent

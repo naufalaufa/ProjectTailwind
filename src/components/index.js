@@ -7,3 +7,6 @@ export { default as Navbar } from "./Navbar";
 export { default as Project } from "./Project";
 export { default as Music } from "./Music";
 export { default as CartMusic } from "./CartMusic";
+export { default as ChatBuble } from "./ChatBuble";
+export { default as ModalBox } from "./ModalBox";
+export { default as ModalBoxContact } from "./ModalBoxContact";

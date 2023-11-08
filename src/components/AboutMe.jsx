@@ -25,7 +25,7 @@ const AboutMe = () => {
       id="aboutme"
       className="text-center w-full min-w-[300px] m-auto sm:w-full  max-h-[500px]  mt-[200px]  "
     >
-      <span className="text-center text-4xl mb-10 font-bold my-40 border-b-4">
+      <span className="text-center text-4xl mb-10 font-bold my-40 border-b-4 2xl:text-6xl">
         About Me
       </span>
       <div className="flex justify-center mt-10">
@@ -44,11 +44,11 @@ const AboutMe = () => {
             </button>
           </div>
           <div className="relative">
-            <h1 className="text-2xl sm:text-4xl mb-5">
+            <h1 className="text-2xl sm:text-4xl mb-5 2xl:text-5xl">
               Hi iam <span className="text-blue-500 font-bold ">Naufal </span>
             </h1>
 
-            <p className="text-sm mb-10 sm:text-sm max-w-xl m-auto lg:max-w-md ">
+            <p className="text-sm mb-10 sm:text-sm max-w-xl m-auto lg:max-w-md 2xl:text-xl ">
               Iam Front End Developer , focus in user interfaces and user
               experience , familiar with using technologies such as react js ,
               tailwind css, javascript, html, css. Live in Jakarta Indonesia.
@@ -75,37 +75,43 @@ const AboutMe = () => {
                 </div>
               </div>
             </div>
-            <h1 className="text-2xl p-2 rounded font-bold  ">
+            <h1 className="text-2xl p-2 rounded font-bold 2xl:text-4xl  ">
               Tech Stack <span className="text-blue-500">Overview</span>
             </h1>
             <div className="flex justify-center mt-5 flex-wrap gap-4 ">
-              <DiReact size={40} className="shadow-md shadow-slate-500" />
+              <DiReact
+                size={40}
+                className="shadow-md shadow-slate-500 2xl:w-[50px] 2xl:h-[50px]"
+              />
               <SiRedux
                 size={40}
                 color="blue"
-                className="shadow-md shadow-slate-500 p-1"
+                className="shadow-md shadow-slate-500 p-1 2xl:w-[50px] 2xl:h-[50px]"
               />
               <BiLogoTailwindCss
                 size={40}
                 color=""
-                className="text-slate-100 shadow-md shadow-slate-500 "
+                className="text-slate-100 shadow-md shadow-slate-500 2xl:w-[50px] 2xl:h-[50px] "
               />
               <IoLogoJavascript
                 size={40}
-                className="text-yellow-400 p-2 shadow-md shadow-slate-500"
+                className="text-yellow-400 p-2 shadow-md shadow-slate-500 2xl:w-[50px] 2xl:h-[50px]"
               />
-              <SiDaisyui size={40} className="shadow-md shadow-slate-500 p-1" />
+              <SiDaisyui
+                size={40}
+                className="shadow-md shadow-slate-500 p-1 2xl:w-[50px] 2xl:h-[50px]"
+              />
               <BsGit
                 size={40}
-                className="text-red-500 shadow-slate-500 shadow-md p-1"
+                className="text-red-500 shadow-slate-500 shadow-md p-1 2xl:w-[50px] 2xl:h-[50px]"
               />
               <SiCss3
                 size={40}
-                className="text-blue-600 shadow-md shadow-slate-500 p-1"
+                className="text-blue-600 shadow-md shadow-slate-500 p-1 2xl:w-[50px] 2xl:h-[50px]"
               />
               <AiFillHtml5
                 size={40}
-                className="text-red-500 shadow-md shadow-slate-500 "
+                className="text-red-500 shadow-md shadow-slate-500 2xl:w-[50px] 2xl:h-[50px]   "
               />
             </div>
           </div>

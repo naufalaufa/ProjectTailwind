@@ -7,7 +7,7 @@ const About = () => {
       data-aos="fade-up"
       data-aos-delay="300"
       id="about"
-      className="grid sm:grid-cols-2  h-[100vh] items-center mb-12 w-full min-w-[300px] m-auto sm:w-full "
+      className="grid sm:grid-cols-2  h-[100vh] items-center mb-12 w-full min-w-[300px] m-auto sm:w-full sm:max-w-[1200px] "
     >
       <div className="p-10">
         <div className="mb-10">
@@ -15,10 +15,10 @@ const About = () => {
             <span className="text-blue-500 text-3xl">N</span>aufaL
           </span>
         </div>
-        <h1 className="text-4xl text-blue-500 font-extrabold mb-5 bg-gradient-to-r from-slate-100 to-blue-300  p-4 rounded-e-md rounded-b-lg shadow-sm shadow-slate-800 z-20 ">
+        <h1 className="text-4xl text-blue-500 font-extrabold mb-5 bg-gradient-to-r from-slate-100 to-blue-300  p-4 rounded-e-md rounded-b-lg shadow-sm shadow-slate-800 z-20 lg:text-6xl  ">
           Front End Developer
         </h1>
-        <div>
+        <div className=" lg:text-md 2xl:text-2xl">
           <TypeAnimation
             speed={150}
             repeat={Infinity}
