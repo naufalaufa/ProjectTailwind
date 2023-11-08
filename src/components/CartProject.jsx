@@ -13,12 +13,12 @@ const CartProject = ({ img, url, text, article, github }) => {
           <p className="mt-4">{article}</p>
         </article>
         <div className="mt-5 flex gap-5 justify-between">
-          <button className="bg-blue-500 p-2 text-sm text-white rounded-xl cursor-pointer hover:bg-slate-500 font-bold whitespace-nowrap duration-100 shadow-sm shadow-slate-800">
+          <button className="bg-blue-500 p-2 text-xs text-white rounded-xl cursor-pointer hover:bg-slate-500 font-bold whitespace-nowrap duration-100 shadow-sm shadow-slate-800 max-w-[200px]">
             <a href={url} target="_blank" rel="noreferrer">
               Visit Link
             </a>
           </button>
-          <button className="bg-blue-500 p-2 text-sm text-white rounded-xl cursor-pointer hover:bg-slate-500 font-bold whitespace-nowrap flex justify-between gap-2 items-center shadow-sm shadow-slate-800 ">
+          <button className="bg-blue-500 p-2 text-xs text-white rounded-xl cursor-pointer hover:bg-slate-500 font-bold whitespace-nowrap flex justify-between gap-2 items-center shadow-sm shadow-slate-800 max-w-[150px] ">
             <span>
               <a href={github} target="_blank" rel="noreferrer">
                 Source Code
