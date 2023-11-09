@@ -10,6 +10,7 @@ const Contact = ({ toggleNavbar }) => {
       data-aos="fade-up"
       data-aos-delay="200"
       className="my-20 w-full min-w-[300px] m-auto"
+      id="contact"
     >
       <div className="text-xl sm:text-4xl text-center font-bold">
         <span className="border-b-4 2xl:text-5xl">Lets Connect And Say Hi</span>

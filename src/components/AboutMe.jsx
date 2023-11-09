@@ -1,18 +1,11 @@
 import LogoImage from "../assets/logo-image.png";
-import { DiReact } from "react-icons/di";
-import { BiLogoTailwindCss } from "react-icons/bi";
-import { IoLogoJavascript } from "react-icons/io";
-import { SiCss3 } from "react-icons/si";
-import { AiFillHtml5 } from "react-icons/ai";
-import { useDispatch, useSelector } from "react-redux";
-import { showBoxContact } from "../features/showBoxContact";
-import { SiRedux } from "react-icons/si";
-import { BsGit } from "react-icons/bs";
-import { SiDaisyui } from "react-icons/si";
 import Me from "../assets/me.jpg";
 import Meee from "../assets/meee.jpg";
 import cibereum from "../assets/cibereum.jpg";
 import akoh from "../assets/akoh.jpg";
+import { useDispatch, useSelector } from "react-redux";
+import { IconBox } from "../Data/DataBoxTechStack";
+import { showBoxContact } from "../features/showBoxContact";
 
 const AboutMe = () => {
   const dispatch = useDispatch();
@@ -79,40 +72,14 @@ const AboutMe = () => {
               Tech Stack <span className="text-blue-500">Overview</span>
             </h1>
             <div className="flex justify-center mt-5 flex-wrap gap-4 ">
-              <DiReact
-                size={40}
-                className="shadow-md shadow-slate-500 2xl:w-[50px] 2xl:h-[50px]"
-              />
-              <SiRedux
-                size={40}
-                color="blue"
-                className="shadow-md shadow-slate-500 p-1 2xl:w-[50px] 2xl:h-[50px]"
-              />
-              <BiLogoTailwindCss
-                size={40}
-                color=""
-                className="text-slate-100 shadow-md shadow-slate-500 2xl:w-[50px] 2xl:h-[50px] "
-              />
-              <IoLogoJavascript
-                size={40}
-                className="text-yellow-400 p-2 shadow-md shadow-slate-500 2xl:w-[50px] 2xl:h-[50px]"
-              />
-              <SiDaisyui
-                size={40}
-                className="shadow-md shadow-slate-500 p-1 2xl:w-[50px] 2xl:h-[50px]"
-              />
-              <BsGit
-                size={40}
-                className="text-red-500 shadow-slate-500 shadow-md p-1 2xl:w-[50px] 2xl:h-[50px]"
-              />
-              <SiCss3
-                size={40}
-                className="text-blue-600 shadow-md shadow-slate-500 p-1 2xl:w-[50px] 2xl:h-[50px]"
-              />
-              <AiFillHtml5
-                size={40}
-                className="text-red-500 shadow-md shadow-slate-500 2xl:w-[50px] 2xl:h-[50px]   "
-              />
+              {IconBox.map((item) => {
+                const { id, style, name, description, icon, close } = item;
+                return (
+                  <span className={style} key={id}>
+                    {icon}
+                  </span>
+                );
+              })}
             </div>
           </div>
         </div>

@@ -1,9 +1,12 @@
 import CartMusic from "./CartMusic";
-import { DataMusic } from "../DataMusic";
+import { DataMusic } from "../Data/DataMusic";
 
 const Music = () => {
   return (
-    <div className="w-full min-w-[300px] sm:w-full m-auto rounded py-4 mt-32 sm:mt-32  ">
+    <div
+      className="w-full min-w-[300px] sm:w-full m-auto rounded py-4 mt-32 sm:mt-32  "
+      id="playlist"
+    >
       <div className="text-center text-4xl mb-20 2xl:mb-10 2xl:text-5xl">
         <span
           data-aos="zoom-in"

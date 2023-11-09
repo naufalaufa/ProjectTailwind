@@ -7,9 +7,9 @@ const About = () => {
       data-aos="fade-up"
       data-aos-delay="300"
       id="about"
-      className="grid sm:grid-cols-2  h-[100vh] items-center mb-12 w-full min-w-[300px] m-auto sm:w-full sm:max-w-[1200px] "
+      className="grid sm:grid-cols-2 h-[100vh] items-center  mb-12 w-full min-w-[300px] m-auto sm:w-full sm:max-w-[1200px] "
     >
-      <div className="p-10">
+      <div className="p-10 mt-10">
         <div className="mb-10">
           <span className=" font-bold  border-b-4 border-solid sm:hidden">
             <span className="text-blue-500 text-3xl">N</span>aufaL

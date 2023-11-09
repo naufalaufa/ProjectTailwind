@@ -19,7 +19,7 @@ const ChatBuble = () => {
           </div>
           <div className="chat-header">
             Naufal Aufa
-            <time className="text-xs opacity-50"> {concatedTimesStrings}</time>
+            <time className="text-xs opacity-50">{concatedTimesStrings}</time>
           </div>
           <div className="chat-bubble text-sm 2xl:text-xl">
             <TypeAnimation
