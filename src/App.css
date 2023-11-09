@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background: linear-gradient(#eeefeafa, #eaf, #eeeaffff);
+}
+
 .nav-links {
   background-color: white;
   transition: 0.8s;

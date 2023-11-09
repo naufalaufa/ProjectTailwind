@@ -10,3 +10,5 @@ export { default as CartMusic } from "./CartMusic";
 export { default as ChatBuble } from "./ChatBuble";
 export { default as ModalBox } from "./ModalBox";
 export { default as ModalBoxContact } from "./ModalBoxContact";
+export { default as Info } from "./Info";
+export { default as LandingComponents } from "./LandingComponents";

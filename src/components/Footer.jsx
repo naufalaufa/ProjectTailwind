@@ -4,10 +4,7 @@ import { SiTiktok } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <div className="grid place-items-center bg-slate-800 p-5 rounded text-white font-bold relative mt-5 w-full min-w-[300px] sm:grid sm:grid-cols-2 sm:place-items-center">
-      <button className="p-2 bg-white text-black rounded px-3 absolute top-[-20px] translate-x-[5px] border border-solid shadow-md shadow-slate-700">
-        <a href="#about">^</a>
-      </button>
+    <div className="grid place-items-center bg-slate-800 p-10  rounded text-white font-bold relative mt-5 w-full min-w-[300px] sm:grid sm:grid-cols-2 sm:place-items-center ">
       <div>
         <h1 className="text-sm sm:text-2xl mt-5 whitespace-nowrap ">
           Mochamad Naufal Aufa Rifqi
@@ -22,7 +19,7 @@ const Footer = () => {
       </div>
       <div>
         <h1 className="my-2">Get In Touch!</h1>
-        <div className="flex gap-5 justify-center">
+        <div className="flex gap-5 justify-center ">
           <a
             href="mailto:muhamadnaufalaufarifqi@gmail.com"
             target="_blank"

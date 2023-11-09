@@ -6,6 +6,7 @@ import akoh from "../assets/akoh.jpg";
 import { useDispatch, useSelector } from "react-redux";
 import { IconBox } from "../Data/DataBoxTechStack";
 import { showBoxContact } from "../features/showBoxContact";
+import AvatarGroup from "./AvatarGroup";
 
 const AboutMe = () => {
   const dispatch = useDispatch();
@@ -47,33 +48,19 @@ const AboutMe = () => {
               tailwind css, javascript, html, css. Live in Jakarta Indonesia.
             </p>
             <div className="avatar-group -space-x-5 flex justify-center mb-10">
-              <div className="avatar">
-                <div className="w-12">
-                  <img src={Me} alt="error" />
-                </div>
-              </div>
-              <div className="avatar">
-                <div className="w-12">
-                  <img src={Meee} alt="error" />
-                </div>
-              </div>
-              <div className="avatar">
-                <div className="w-12">
-                  <img src={cibereum} alt="error" />
-                </div>
-              </div>
-              <div className="avatar placeholder">
-                <div className="w-12 bg-neutral-focus text-neutral-content">
-                  <img src={akoh} alt="error" />
-                </div>
-              </div>
+              <AvatarGroup
+                Me={Me}
+                Meee={Meee}
+                cibereum={cibereum}
+                akoh={akoh}
+              />
             </div>
             <h1 className="text-2xl p-2 rounded font-bold 2xl:text-4xl  ">
               Tech Stack <span className="text-blue-500">Overview</span>
             </h1>
             <div className="flex justify-center mt-5 flex-wrap gap-4 ">
               {IconBox.map((item) => {
-                const { id, style, name, description, icon, close } = item;
+                const { id, style, icon } = item;
                 return (
                   <span className={style} key={id}>
                     {icon}
