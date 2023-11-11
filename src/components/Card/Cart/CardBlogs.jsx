@@ -5,7 +5,7 @@ const CardBlogs = ({ image, title, date }) => {
         <img
           src={image}
           className="w-64 h-64 rounded object-cover hover:opacity-80 cursor-pointer shadow-lg shadow-slate-700 "
-          alt=""
+          alt={image}
         />
       </div>
       <div className="">
