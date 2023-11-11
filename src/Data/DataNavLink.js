@@ -9,9 +9,4 @@ export const DataNavLink = [
     url: "blogs",
     text: "Blog",
   },
-  {
-    id: 3,
-    url: "about",
-    text: "About",
-  },
 ];
