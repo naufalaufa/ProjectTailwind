@@ -1,5 +1,5 @@
-import { DataProject } from "../Data/DataProject";
-import CartProject from "./CartProject";
+import { DataProject } from "../../Data/DataProject";
+import CartProject from "../Card/Cart/CartProject";
 
 const Project = () => {
   return (

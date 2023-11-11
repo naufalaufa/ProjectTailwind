@@ -1,5 +1,5 @@
-import CartMusic from "./CartMusic";
-import { DataMusic } from "../Data/DataMusic";
+import CartMusic from "../Card/Cart/CartMusic";
+import { DataMusic } from "../../Data/DataMusic";
 
 const Music = () => {
   return (

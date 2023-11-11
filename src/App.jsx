@@ -4,13 +4,13 @@ import "aos/dist/aos.css";
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Blogs, LandingPage } from "./Pages";
-import AboutPages from "./Pages/AboutPages";
+import { Blogs, ErrorPage, LandingPage } from "./Pages";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <LandingComponents />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
@@ -19,10 +19,6 @@ const router = createBrowserRouter([
       {
         path: "blogs",
         element: <Blogs />,
-      },
-      {
-        path: "about",
-        element: <AboutPages />,
       },
     ],
   },

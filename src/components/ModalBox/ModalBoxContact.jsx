@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { closeBoxContact } from "../features/showBoxContact";
+import { closeBoxContact } from "../../features/showBoxContact";
 
 const ModalBoxContact = () => {
   const { isOpenContact } = useSelector((state) => state.showContact);

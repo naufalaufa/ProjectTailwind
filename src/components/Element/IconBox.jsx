@@ -1,4 +1,4 @@
-import { DataBoxTechStackIcon } from "../Data/DataBoxTechStack";
+import { DataBoxTechStackIcon } from "../../Data/DataBoxTechStack";
 const IconBox = () => {
   return (
     <div className="flex justify-center mt-5 flex-wrap gap-4">

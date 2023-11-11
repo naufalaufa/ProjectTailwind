@@ -1,11 +1,11 @@
-import LogoImage from "../assets/logo-image.png";
-import Me from "../assets/me.jpg";
-import Meee from "../assets/meee.jpg";
-import cibereum from "../assets/cibereum.jpg";
-import akoh from "../assets/akoh.jpg";
+import LogoImage from "../../assets/logo-image.png";
+import Me from "../../assets/me.jpg";
+import Meee from "../../assets/meee.jpg";
+import cibereum from "../../assets/cibereum.jpg";
+import akoh from "../../assets/akoh.jpg";
 import { useDispatch, useSelector } from "react-redux";
-import { IconBox } from "../Data/DataBoxTechStack";
-import { showBoxContact } from "../features/showBoxContact";
+import { IconBox } from "../../Data/DataBoxTechStack";
+import { showBoxContact } from "../../features/showBoxContact";
 import AvatarGroup from "./AvatarGroup";
 
 const AboutMe = () => {

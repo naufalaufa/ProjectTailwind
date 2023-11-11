@@ -1,4 +1,4 @@
-import { CardComponent } from "./index";
+import { CardComponent } from "../index";
 import { BsInstagram } from "react-icons/bs";
 import { BiLogoLinkedinSquare } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";

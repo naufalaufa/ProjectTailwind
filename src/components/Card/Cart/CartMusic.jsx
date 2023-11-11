@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { BsFillHeartFill } from "react-icons/bs";
 import { useDispatch, useSelector } from "react-redux";
-import { Like } from "../features/likeMusic";
+import { Like } from "../../../features/likeMusic";
 import { toast } from "react-toastify";
 
 const CartMusic = (props) => {

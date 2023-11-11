@@ -1,4 +1,4 @@
-import LogoIcon from "../assets/react.svg";
+import LogoIcon from "../../assets/react.svg";
 import { TypeAnimation } from "react-type-animation";
 
 const About = () => {

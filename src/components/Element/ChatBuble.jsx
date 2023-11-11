@@ -1,5 +1,5 @@
-import meee from "../assets/me.jpg";
-import anonymous from "../assets/anonymous.jpg";
+import meee from "../../assets/meee.jpg";
+import anonymous from "../../assets/anonymous.jpg";
 import { TypeAnimation } from "react-type-animation";
 
 const ChatBuble = () => {

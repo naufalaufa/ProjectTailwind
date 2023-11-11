@@ -1,4 +1,3 @@
-import { Navbar } from "../components";
 import PropTypes from "prop-types";
 import { useState } from "react";
 import { Outlet } from "react-router-dom";

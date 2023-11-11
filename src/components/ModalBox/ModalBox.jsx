@@ -1,6 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { CloseBox } from "../features/showbox";
-import CV from "../../public/CV-REVISION-DONES.pdf";
+import { CloseBox } from "../../features/showbox";
 
 const ModalBox = () => {
   const dispatch = useDispatch();
@@ -16,12 +15,7 @@ const ModalBox = () => {
         </h1>
         <div className="flex justify-between mt-20">
           <button className="bg-white p-2 rounded font-bold px-4 text-sm ">
-            <a
-              href={CV}
-              target="_blank"
-              rel="noreferrer"
-              className="text-black"
-            >
+            <a target="_blank" rel="noreferrer" className="text-black">
               YES
             </a>
           </button>

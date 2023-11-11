@@ -4,7 +4,7 @@ const Blogs = () => {
       <div className="w-[100$] max-w-[95vw] m-auto z-[99999999999999999999] ">
         <div className="mt-40">
           <h1 className="text-center text-2xl font-bold sm:text-4xl">
-            <span className=" border-b-4">MY BLOG</span>
+            <span className=" border-b-4">MY PERSONAL BLOG</span>
           </h1>
           <article className="text-center  mt-10 w-full max-w-[500px] p-2 m-auto sm:max-w-[900px]">
             Mungkin kalian bingung kenapa halaman ini bahasa indonesia sendiri

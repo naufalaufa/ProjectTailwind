@@ -9,7 +9,10 @@ const NabNew = ({ toggleNavbar, setToggleNavbar }) => {
     <div className="navbar  bg-white/80 fixed grid grid-flow-col z-[999999999999] top-0 left-0 right-0 ">
       <div className="flex-1 navbar-start lg:ml-10">
         <Link to="/" className="btn btn-ghost normal-case text-xs sm:text-xl">
-          Mochammad Naufal Aufa Rifqi
+          <p>
+            <span className="text-blue-500 mr-1">Mochamad</span>Naufal Aufa
+            Rifqi
+          </p>
         </Link>
       </div>
       <div className="navbar navbar-center max-w-max">
@@ -52,7 +55,7 @@ const NabNew = ({ toggleNavbar, setToggleNavbar }) => {
       </div>
       <div className="dropdown dropdown-end md:hidden">
         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-          <div className="bg-black/60 p-2 rounded text-white">
+          <div className="bg-blue-600 p-2 rounded text-white">
             <button>
               <RxHamburgerMenu />
             </button>
