@@ -2,11 +2,11 @@ export const DataNavLink = [
   {
     id: 1,
     url: "/",
-    text: "Home Page",
+    text: "About",
   },
   {
     id: 2,
-    url: "blogs",
+    url: "blog",
     text: "Blog",
   },
 ];

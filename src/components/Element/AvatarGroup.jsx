@@ -31,7 +31,7 @@ AvatarGroup.propTypes = {
   Me: PropTypes.any,
   Meee: PropTypes.any,
   cibereum: PropTypes.any,
-  akoh: PropTypes.akoh,
+  akoh: PropTypes.any,
 };
 
 export default AvatarGroup;

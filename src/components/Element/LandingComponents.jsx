@@ -34,8 +34,8 @@ const LandingComponents = () => {
 };
 
 LandingComponents.propTypes = {
-  toggleNavbar: PropTypes.func,
-  setToggleNavbar: PropTypes.func,
+  toggleNavbar: PropTypes.any,
+  setToggleNavbar: PropTypes.any,
 };
 
 export default LandingComponents;

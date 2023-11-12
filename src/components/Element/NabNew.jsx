@@ -83,8 +83,8 @@ const NabNew = ({ toggleNavbar, setToggleNavbar }) => {
 };
 
 NabNew.propTypes = {
-  toggleNavbar: PropTypes.func,
-  setToggleNavbar: PropTypes.func,
+  toggleNavbar: PropTypes.any,
+  setToggleNavbar: PropTypes.any,
 };
 
 export default NabNew;

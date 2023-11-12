@@ -31,8 +31,8 @@ const Info = ({ toggleInfo, setToggleInfo }) => {
 };
 
 Info.propTypes = {
-  toggleInfo: PropTypes.func,
-  setToggleInfo: PropTypes.func,
+  toggleInfo: PropTypes.any,
+  setToggleInfo: PropTypes.any,
 };
 
 export default Info;
