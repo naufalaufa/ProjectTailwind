@@ -1,5 +1,7 @@
-import { DataBlogStory } from "../Data/DataBlogStory";
 import { CardBlogs, Footer } from "../components";
+import Hujan from "../assets/hujan.jpg";
+import Surken from "../assets/dirikuSurken.jpg";
+import masaSMK from "../assets/masaSMK.jpg";
 
 const Blogs = () => {
   return (
@@ -10,11 +12,25 @@ const Blogs = () => {
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-5 xl:grid-cols-4 mb-60 ">
-          {DataBlogStory.map((item) => {
-            return <CardBlogs key={item.id} {...item} />;
-          })}
+          <CardBlogs
+            id={1}
+            image={Hujan}
+            title="Hujan Dan Kenangan"
+            date="11 November 2023"
+          />
+          <CardBlogs
+            id={2}
+            image={Surken}
+            title="Tersesat Di Surya Kencana"
+            date="11 November 2023"
+          />
+          <CardBlogs
+            id={3}
+            image={masaSMK}
+            title="Masa SMK"
+            date="11 November 2023"
+          />
         </div>
-
         <Footer />
       </div>
     </>

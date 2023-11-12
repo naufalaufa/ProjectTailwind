@@ -4,7 +4,8 @@ import "aos/dist/aos.css";
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Blogs, ErrorPage, LandingPage } from "./Pages";
+import { Blogs, ErrorPage, LandingPage, SingleBlogs } from "./Pages";
+import ComingSoon from "./Pages/ComingSoon";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "blogs",
         element: <Blogs />,
+      },
+      {
+        path: "blogs/:id",
+        element: <ComingSoon />,
       },
     ],
   },
