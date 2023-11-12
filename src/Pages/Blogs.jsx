@@ -2,6 +2,7 @@ import { CardBlogs, Footer } from "../components";
 import Hujan from "../assets/hujan.jpg";
 import Surken from "../assets/dirikuSurken.jpg";
 import masaSMK from "../assets/masaSMK.jpg";
+import Bule from "../assets/buleInterview.jpg";
 
 const Blogs = () => {
   return (
@@ -29,6 +30,12 @@ const Blogs = () => {
             image={masaSMK}
             title="Masa SMK"
             date="11 November 2023"
+          />
+          <CardBlogs
+            id={4}
+            image={Bule}
+            title="Diinterview Bule"
+            date="12 November 2023"
           />
         </div>
         <Footer />
