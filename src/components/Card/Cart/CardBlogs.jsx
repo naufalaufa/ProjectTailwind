@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const CardBlogs = ({ image, title, date }) => {
   return (
     <div className="mt-10 m-auto">
@@ -5,7 +7,7 @@ const CardBlogs = ({ image, title, date }) => {
         <img
           src={image}
           className="w-64 h-64 rounded object-cover hover:opacity-80 cursor-pointer shadow-lg shadow-slate-700 "
-          alt={image}
+          alt="error"
         />
       </div>
       <div className="">
@@ -14,6 +16,12 @@ const CardBlogs = ({ image, title, date }) => {
       </div>
     </div>
   );
+};
+
+CardBlogs.propTypes = {
+  image: PropTypes.string,
+  title: PropTypes.string,
+  date: PropTypes.string,
 };
 
 export default CardBlogs;
