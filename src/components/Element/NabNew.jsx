@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 
 const NabNew = ({ toggleNavbar, setToggleNavbar }) => {
   return (
-    <div className="navbar  bg-white fixed grid grid-flow-col z-[999999999999] top-0 left-0 right-0 ">
+    <div className="navbar bg-white fixed grid grid-flow-col z-[999999999999] top-0 left-0 right-0  ">
       <div className="flex-1 navbar-start lg:ml-10">
         <Link to="/" className="btn btn-ghost normal-case text-xs sm:text-xl">
           <p>

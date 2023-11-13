@@ -8,7 +8,7 @@ const Navbar = ({ toggleNavbar, setToggleNavbar }) => {
   return (
     <nav
       id="navbar"
-      className="navbar fixed mx-auto w-screen min-w-[300px]  lg:w-full flex px-8 py-1 lg:grid grid-flow-col justify-between items-center z-[9999999] bg-white left-0 shadow-md shadow-slate-800"
+      className="navbar fixed mx-auto w-screen min-w-[300px] lg:w-full flex px-8 py-1 lg:grid grid-flow-col justify-between items-center z-[9999999] bg-white left-0 shadow-md shadow-slate-800"
     >
       <div className="navbar-start">
         <NavLink

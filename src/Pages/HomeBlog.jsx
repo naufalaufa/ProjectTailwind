@@ -15,7 +15,7 @@ const HomeBlog = () => {
               kan , <span className="font-bold">-Naufal Aufa</span> , blog ini
               berisi informasi tentang <span className="font-bold">Naufal</span>
               . tulisan-tulisannya tentang apapun , keresahan , cerita unfaedah
-              dan lain lain
+              dan lain lain , absurd dikit gapapa ya
             </p>
 
             <div className="flex justify-center mb-10">

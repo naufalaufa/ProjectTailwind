@@ -15,4 +15,5 @@ export { default as LandingComponents } from "./Element/LandingComponents";
 export { default as CardInfo } from "./Card/Cart/CardInfo";
 export { default as CardBlogs } from "./Card/Cart/CardBlogs";
 export { default as BlogHome } from "./Element/BlogHome";
+export { default as CardSingleBlogs } from "./Card/CardSingleBlogs";
 export { default as Error } from "./ErrorComponent/Error";
