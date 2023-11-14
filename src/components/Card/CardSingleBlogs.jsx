@@ -1,6 +1,6 @@
 import PropTypes, { string } from "prop-types";
 
-const CardSingleBlogs = ({ id, date, name, image, text }) => {
+const CardSingleBlogs = ({ id, date, name, image, text, ig }) => {
   return (
     <>
       <div key={id} className="mt-40 sm:mt-20 md:mt-28 lg:mt-32 ">
@@ -29,6 +29,15 @@ const CardSingleBlogs = ({ id, date, name, image, text }) => {
           <p className="max-w-2xl m-auto p-5 sm:max-w-4xl leading-7">
             {text[4]}
           </p>
+          {ig && (
+            <p className="text-center my-5">
+              <button className="btn">
+                <a target="_blank" rel="noreferrer" href={ig}>
+                  @Faturahman Al Rasyid
+                </a>
+              </button>
+            </p>
+          )}
         </div>
       </div>
     </>

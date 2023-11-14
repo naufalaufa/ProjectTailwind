@@ -24,12 +24,13 @@ const AboutMe = () => {
       </span>
       <div className="flex justify-center mt-10">
         <div className="grid  xl:grid-cols-2 items-center">
-          <div className="relative">
+          <div className="relative ">
             <img
               src={LogoImage}
               alt={LogoImage}
-              className="w-[100%] max-w-[600px] bg-gradient-to-r from-blue-100 to-blue-500 shadow-lg shadow-slate-800 rounded-md mb-5 m-auto"
+              className="w-[100%] max-w-[600px] bg-gradient-to-r from-blue-100 to-blue-500 shadow-lg shadow-slate-800 rounded-md mb-5 m-auto "
             />
+
             <button
               className="absolute top-0 bg-blue-500 p-2 shadow-md shadow-slate-600 text-white font-bold rounded-sm px-4 hover:bg-slate-400"
               onClick={() => dispatch(showBoxContact(!isOpenContact))}

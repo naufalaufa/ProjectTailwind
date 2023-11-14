@@ -4,6 +4,8 @@ import {
   DataSingle2,
   DataSingle3,
   DataSingle4,
+  DataSingle5,
+  DataSingle6,
 } from "../Data/DataSingleBlogs";
 import { CardSingleBlogs, Footer } from "../components";
 
@@ -20,6 +22,10 @@ const SingleBlogs = () => {
         return DataSingle3;
       case "4":
         return DataSingle4;
+      case "5":
+        return DataSingle5;
+      case "6":
+        return DataSingle6;
       default:
         return null;
     }
@@ -27,7 +33,7 @@ const SingleBlogs = () => {
 
   return (
     <>
-      <div>
+      <div className="w-[95vw] m-auto">
         {data().map((item) => {
           return <CardSingleBlogs key={item.id} {...item} />;
         })}
@@ -36,8 +42,8 @@ const SingleBlogs = () => {
             Back Home
           </Link>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };

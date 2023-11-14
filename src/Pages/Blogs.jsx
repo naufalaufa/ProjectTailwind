@@ -2,7 +2,9 @@ import { CardBlogs, Footer } from "../components";
 import Hujan from "../assets/hujan.jpg";
 import Surken from "../assets/dirikuSurken.jpg";
 import masaSMK from "../assets/masaSMK.jpg";
-import SosialMedia from "../assets/sosialMedia.jpg";
+import deadpool from "../assets/deadpool.jpg";
+import Senja from "../assets/senja.jpg";
+import opalex from "../assets/opalex.jpg";
 import { Link } from "react-router-dom";
 
 const Blogs = () => {
@@ -39,9 +41,21 @@ const Blogs = () => {
           />
           <CardBlogs
             id={4}
-            image={SosialMedia}
-            title="Sosial Media"
+            image={deadpool}
+            title="Deadpool"
             date="12 November 2023"
+          />
+          <CardBlogs
+            id={5}
+            image={Senja}
+            title="Senja Dan Jingga"
+            date="14 November 2023"
+          />
+          <CardBlogs
+            id={6}
+            image={opalex}
+            title="Susah Tidur"
+            date="14 November 2023"
           />
         </div>
         <Footer />
