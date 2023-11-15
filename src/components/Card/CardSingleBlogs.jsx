@@ -3,7 +3,7 @@ import PropTypes, { string } from "prop-types";
 const CardSingleBlogs = ({ id, date, name, image, text, ig }) => {
   return (
     <>
-      <div key={id} className="mt-40 sm:mt-20 md:mt-28 lg:mt-32 ">
+      <div key={id} className="mt-40 sm:mt-20 md:mt-28 lg:mt-32 font-lilita">
         <div>
           <p className="text-center mb-2">{date}</p>
           <p className="text-2xl font-bold mb-5  text-center">{name}</p>
@@ -49,6 +49,7 @@ CardSingleBlogs.propTypes = {
   date: PropTypes.string,
   name: PropTypes.string,
   image: PropTypes.string,
+  ig: PropTypes.string,
   text: PropTypes.arrayOf(string),
 };
 

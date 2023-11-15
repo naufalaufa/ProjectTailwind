@@ -50,7 +50,7 @@ export const DataSingle4 = [
     date: "12 November 2023",
     image: "/deadpool.jpg",
     text: [
-      "Suka sama karakter superhero ini, tapi dia masuk superhero gak si ?, soalnya sangean.",
+      "Suka sama karakter superhero ini, tapi dia masuk list superhero gak si ?, soalnya sangean.",
       "Kenalin Deadpool , Dibalik sosok Deadpool ada Wide Wilson sebagai tentara bayaran , suatu hari Wide Wilson divonis kanker dan dikabarkan waktunya didunia tidak lama lagi, mendengar hal itu Wide Wilson mengikuti sebuah program yang bernama Weapon X untuk mengatasi penyakit kanker ini dan memberikan kemampuan berupa keabadian, Wide Wilson mengikuti program ini dikarenakan sangat cinta dan tidak ingin meninggalkan istrinya.",
       "Setelah mengikuti Program Weapon X wajah Wide Wilson menjadi hancur dan mengerikan, tapi dia menjadi abadi dan tidak bisa mati, sejak saat itu dia takut istrinya melihat wajahnya yang buruk itu, dan membuat berita kematian palsu, dan melindungi serta mengawasi istrinya dari balik bayangan karena saking cintanya.",
     ],
@@ -77,7 +77,7 @@ export const DataSingle6 = [
     id: 6,
     name: "Susah Tidur",
     date: "14 November 2023",
-    image: "/opalex.jpg",
+    image: "/insomnia.jpg",
     text: [
       "Siapa disini yang cita citanya bisa tidur tepat waktu?, definisi sukses bagiku adalah bisa tidur dibawah jam 10  , begitu susahnya buat tidur tepat waktu diri ini astaga , wishlist ku tahun depan pokonya bisa tidur dibawah jam 10 itu udah lebih dari cukup kok , wkwkwk bercanda , tapi namanya manusia gapernah puas dan selalu minta lebih. ",
       "pernah saking niatnya gua set up tidur dari jam 8 malam, cuma semakin direncanakan kok semakin sulit ya , yang ada malah terjaga dan tetap tegar, disini ada yang tau tegar aku yang dulu bukanlah yang sekarang ? , apasih wkwkwk lanjut. alhasil itu semua ZONK , endingnya gue bergadang nonton spoiler film di youtube HAHAHAH.",
@@ -88,7 +88,7 @@ export const DataSingle6 = [
 ];
 export const DataSingle7 = [
   {
-    id: 6,
+    id: 7,
     name: "Diinterview Bule",
     date: "14 November 2023",
     image: "/buleeee.png",
@@ -98,6 +98,19 @@ export const DataSingle7 = [
       "Bisa diliat kan dari raut wajah gue yang amat ngakak sekaligus bingung itu, BTW raut wajah gue disini kaya Yao Ming, Njirrr lah.",
       "Disini dia nanya banyak banget dan gue gangerti HAHAHAHA,   diakhir vlog gua bilang ( i dont speak english mister  ) tapi di cut sama dia.",
       "Jadi keingetan sama video meme enda bisa bahasa enggress, LMAO.",
+    ],
+  },
+];
+export const DataSingle8 = [
+  {
+    id: 8,
+    name: "Beranjak Dewasa",
+    date: "15 November 2023",
+    image: "/masaKecil.jpg",
+    text: [
+      "Siapa yang dulu pas kecil pengen cepat-cepat besar ? , Waktu kecil melihat orang dewasa pacaran , sudah besar melihat anak kecil pacaran , Waduh bukan gitu konsepnya.",
+      "Waktu begitu cepat ya, beranjak dewasa adalah fase yang akan pasti dilewati oleh setiap manusia",
+      "Mah ini anakmu, maafin aku dulu sering nangis karena mainan , sekarang sudah  nangis karena dipermainkan keadaan. Naif banget dah wkwkwk gaseparah itu kok.",
     ],
   },
 ];

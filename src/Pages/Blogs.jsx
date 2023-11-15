@@ -4,8 +4,9 @@ import Surken from "../assets/dirikuSurken.jpg";
 import masaSMK from "../assets/masaSMK.jpg";
 import deadpool from "../assets/deadpool.jpg";
 import Senja from "../assets/senja.jpg";
-import opalex from "../assets/opalex.jpg";
+import insomnia from "../assets/insomnia.jpg";
 import Bule from "../assets/buleeee.png";
+import MasaKecil from "../assets/masaKecil.jpg";
 import { Link } from "react-router-dom";
 
 const Blogs = () => {
@@ -54,7 +55,7 @@ const Blogs = () => {
           />
           <CardBlogs
             id={6}
-            image={opalex}
+            image={insomnia}
             title="Susah Tidur"
             date="14 November 2023"
           />
@@ -62,6 +63,12 @@ const Blogs = () => {
             id={7}
             image={Bule}
             title="Diinterview Bule"
+            date="14 November 2023"
+          />
+          <CardBlogs
+            id={8}
+            image={MasaKecil}
+            title="Beranjak Dewasa"
             date="14 November 2023"
           />
         </div>
