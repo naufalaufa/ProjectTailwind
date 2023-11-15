@@ -5,12 +5,13 @@ import masaSMK from "../assets/masaSMK.jpg";
 import deadpool from "../assets/deadpool.jpg";
 import Senja from "../assets/senja.jpg";
 import opalex from "../assets/opalex.jpg";
+import Bule from "../assets/buleeee.png";
 import { Link } from "react-router-dom";
 
 const Blogs = () => {
   return (
     <>
-      <div className="w-[100%] max-w-[95vw] m-auto z-[99999999999999999999]">
+      <div className="w-[100%] max-w-[95vw] m-auto z-[99999999999999999999] ">
         <h1 className="text-4xl mt-32 text-center mb-5">
           <span className="border-b-4 font-bold">BLOG</span>
         </h1>
@@ -55,6 +56,12 @@ const Blogs = () => {
             id={6}
             image={opalex}
             title="Susah Tidur"
+            date="14 November 2023"
+          />
+          <CardBlogs
+            id={7}
+            image={Bule}
+            title="Diinterview Bule"
             date="14 November 2023"
           />
         </div>

@@ -13,7 +13,7 @@ const CardSingleBlogs = ({ id, date, name, image, text, ig }) => {
           className="w-[300px] h-[300px]  rounded-md object-cover  m-auto"
           alt={image}
         />
-        <div className="max-w-xl m-auto lg:max-w-2xl text-sm">
+        <div className="max-w-xl m-auto lg:max-w-2xl text-sm ">
           <p className="max-w-2xl m-auto p-5 sm:max-w-4xl leading-7">
             {text[0]}
           </p>

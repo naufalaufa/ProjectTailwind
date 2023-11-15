@@ -20,7 +20,7 @@ export const DataSingle2 = [
     date: "11 November 2023",
     image: "/surken.jpg",
     text: [
-      "Pada 17 September gue memulai pendakian pertama ke Gunung Gede Pangarango dan gue sangat excited , pertama kali bro wkwkwk , menurut gue ini adalah sebuah pendakian yang nekad dimana gue mendaki di hari sabtu dan hari seninnya itu gue UAS (Ujian Akhir Semester) dan gua berangkat 8 orang kurang dan lebihnya. ",
+      "Pada 17 September 2022, gue memulai pendakian pertama ke Gunung Gede Pangarango dan gue sangat excited , pertama kali bro wkwkwk , menurut gue ini adalah sebuah pendakian yang nekad dimana gue mendaki di hari sabtu dan hari seninnya itu gue UAS (Ujian Akhir Semester) dan gua berangkat 8 orang kurang dan lebihnya. ",
       "langsung aja kita masuk ke tragedi Surya Kencana ini sesuai judul, gue dan tim sampai ke Surya Kencana kurang lebih jam 8 malam dimana posisinya berkabut angin kencang , disitu udah chaos parah. ",
       "sampai kita memutuskan buat ngecamp di Surya Kencana Timur karena dekat sama Mata Air , sesampainya buat ngecamp 4 orang dari tim kedinginan hebat , tersisa gua dan 3 lainnya yang masih bertahan , disitu dibagi tugas, 2 mendirikan tenda , 2 nya lagi ambil Mata Air , yang apesnya gue kebagian ngambil air di Mata Air , selang berapa lama ada pendaki lain mau ambil air juga , yaudah dibarengin aja , selepas ambil air kita kehilangan pendaki itu wkwk buru-buru juga kayanya karena angin kenceng banget dan dingin.",
       "disini gue lupa ngecamp dimana alhasil bingung keliling cari tenda , gue teriak teriak nama temen gue yang ngediriin tenda WOY LOE DIMANA gaada yang respon wkwk , gua minta tolonglah ketenda tenda yang camp , tolongin kami mas , kami lupa jalan ketempat camp tenda , disitu dibantuin teriak teriak , jam 8 setengah 9 malam teriak teriak disurken wkwkwk , untungnya setelah dibantu , temen gua denger dan langsung sorotin senter dan teriak, WOY gua disini!!.",
@@ -49,7 +49,11 @@ export const DataSingle4 = [
     name: "Deadpool",
     date: "12 November 2023",
     image: "/deadpool.jpg",
-    text: ["soon"],
+    text: [
+      "Suka sama karakter superhero ini, tapi dia masuk superhero gak si ?, soalnya sangean.",
+      "Kenalin Deadpool , Dibalik sosok Deadpool ada Wide Wilson sebagai tentara bayaran , suatu hari Wide Wilson divonis kanker dan dikabarkan waktunya didunia tidak lama lagi, mendengar hal itu Wide Wilson mengikuti sebuah program yang bernama Weapon X untuk mengatasi penyakit kanker ini dan memberikan kemampuan berupa keabadian, Wide Wilson mengikuti program ini dikarenakan sangat cinta dan tidak ingin meninggalkan istrinya.",
+      "Setelah mengikuti Program Weapon X wajah Wide Wilson menjadi hancur dan mengerikan, tapi dia menjadi abadi dan tidak bisa mati, sejak saat itu dia takut istrinya melihat wajahnya yang buruk itu, dan membuat berita kematian palsu, dan melindungi serta mengawasi istrinya dari balik bayangan karena saking cintanya.",
+    ],
   },
 ];
 
@@ -79,6 +83,21 @@ export const DataSingle6 = [
       "pernah saking niatnya gua set up tidur dari jam 8 malam, cuma semakin direncanakan kok semakin sulit ya , yang ada malah terjaga dan tetap tegar, disini ada yang tau tegar aku yang dulu bukanlah yang sekarang ? , apasih wkwkwk lanjut. alhasil itu semua ZONK , endingnya gue bergadang nonton spoiler film di youtube HAHAHAH.",
       "Udah nyoba juga nonton tutorial tidur cepat diyoutube tetep aja ga work, kurang lebih gini keyword nya ( TUTORIAL TIDUR CEPAT NO ROOT ) CAPSLOK semua pokonya.",
       "dari sini kita tau bahwa patokan sukses orang itu beda-beda ada yang bisa tidur dibawah jam 10 aja itu udah termasuk pencapaian WKWKWK.",
+    ],
+  },
+];
+export const DataSingle7 = [
+  {
+    id: 6,
+    name: "Diinterview Bule",
+    date: "14 November 2023",
+    image: "/buleeee.png",
+    text: [
+      "Tepatnya hari pancasila 1 Juni 2021 , lari sore santay sekitar daerah Gelora Bung Karno ,  sore itu rasanya aman aman saja tidak ada yang aneh.",
+      "Hingga rasa aman itu sirna setelah ada warga negara asing alias ( BULE ) datang untuk membuat vlog, disini gue ketar ketir karena kemampuan gue berbahasa inggris sangat amatlah buruk, bahasa inggrisnya buruk BAD.",
+      "Bisa diliat kan dari raut wajah gue yang amat ngakak sekaligus bingung itu, BTW raut wajah gue disini kaya Yao Ming, Njirrr lah.",
+      "Disini dia nanya banyak banget dan gue gangerti HAHAHAHA,   diakhir vlog gua bilang ( i dont speak english mister  ) tapi di cut sama dia.",
+      "Jadi keingetan sama video meme enda bisa bahasa enggress, LMAO.",
     ],
   },
 ];

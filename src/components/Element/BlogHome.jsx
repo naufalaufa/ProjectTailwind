@@ -1,6 +1,6 @@
 const BlogHome = () => (
   <svg
-    className="w-[270px] h-[400px] sm:w-[400px] sm:h-[500px]"
+    className="w-[200px] h-[250px] sm:w-[300px] sm:h-[500px] lg:w-[400px]"
     xmlns="http://www.w3.org/2000/svg"
     data-name="Layer 1"
     viewBox="0 0 628.95175 540.74875"
