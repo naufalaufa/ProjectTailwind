@@ -13,6 +13,7 @@ import { CardSingleBlogs, Footer } from "../components";
 
 const SingleBlogs = () => {
   const { id } = useParams();
+  console.log(id);
 
   const data = () => {
     switch (id) {

@@ -1,5 +1,7 @@
 import CartMusic from "../Card/Cart/CartMusic";
 import { DataMusic } from "../../Data/DataMusic";
+import { DataMusicSpotify } from "../../Data/DataMusicSpotify";
+import CartMusicSpotify from "../Card/Cart/CartMusicSpotify";
 
 const Music = () => {
   return (
@@ -24,9 +26,9 @@ const Music = () => {
         <h1 className="text-center text-xl sm:text-4xl font-bold p-5">
           Top 10 Favorite Music
         </h1>
-        <div className="grid sm:grid-cols-2 gap-2 ">
-          {DataMusic.map((item, idx) => {
-            return <CartMusic {...item} key={idx} />;
+        <div className="grid sm:grid-cols-2 gap-4 ">
+          {DataMusicSpotify.map((item, idx) => {
+            return <CartMusicSpotify {...item} key={idx} />;
           })}
         </div>
       </div>
