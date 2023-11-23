@@ -1,5 +1,3 @@
-import CartMusic from "../Card/Cart/CartMusic";
-import { DataMusic } from "../../Data/DataMusic";
 import { DataMusicSpotify } from "../../Data/DataMusicSpotify";
 import CartMusicSpotify from "../Card/Cart/CartMusicSpotify";
 

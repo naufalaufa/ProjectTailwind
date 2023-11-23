@@ -12,7 +12,7 @@ const CardBlogs = ({ image, title, date, id }) => {
         />
       </Link>
       <div>
-        <h1 className="text-center my-3 text-xl font-semibold font-lilita ">
+        <h1 className="text-center my-3 text-sm font-semibold font-lilita ">
           {title}
         </h1>
         <p className="text-center font-light">{date}</p>

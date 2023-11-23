@@ -22,7 +22,7 @@ const Blogs = () => {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-5 xl:grid-cols-4 mb-60 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-5 xl:grid-cols-4 mb-60 text-sm  ">
           <CardBlogs
             id={1}
             image={Hujan}
@@ -71,16 +71,6 @@ const Blogs = () => {
             title="Beranjak Dewasa"
             date="14 November 2023"
           />
-          <iframe
-            style="border-radius:12px"
-            src="https://open.spotify.com/embed/track/5Qzo8ga4sAP2NYG5pCIvEf?utm_source=generator&theme=0"
-            width="100%"
-            height="352"
-            frameBorder="0"
-            allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy"
-          ></iframe>
         </div>
         <Footer />
       </div>
