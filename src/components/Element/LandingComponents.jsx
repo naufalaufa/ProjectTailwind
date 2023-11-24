@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
 import NabNew from "./NabNew";
@@ -10,6 +9,8 @@ const themes = {
 
 const LandingComponents = () => {
   const [toggleNavbar, setToggleNavbar] = useState(false);
+  const [hamburgerToggle, setHamburgerToggle] = useState(false);
+
   return (
     <>
       <div className="grid">
@@ -17,6 +18,8 @@ const LandingComponents = () => {
           <NabNew
             toggleNavbar={toggleNavbar}
             setToggleNavbar={setToggleNavbar}
+            hamburgerToggle={hamburgerToggle}
+            setHamburgetToggle={setHamburgerToggle}
           />
         </div>
         <div
@@ -31,11 +34,6 @@ const LandingComponents = () => {
       </div>
     </>
   );
-};
-
-LandingComponents.propTypes = {
-  toggleNavbar: PropTypes.any,
-  setToggleNavbar: PropTypes.any,
 };
 
 export default LandingComponents;
