@@ -61,9 +61,10 @@ const NabNew = ({
         </summary>
         <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-24 translate-x-[-10px]">
           {DataNavLink.map((item) => {
+            const { id, text, url } = item;
             return (
-              <li key={item.id}>
-                <a href={item.url}>{item.text}</a>
+              <li key={id}>
+                <Link to={url}>{text}</Link>
               </li>
             );
           })}
