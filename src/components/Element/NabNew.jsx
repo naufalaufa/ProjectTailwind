@@ -30,7 +30,7 @@ const NabNew = ({
               <NavLink
                 key={id}
                 to={url}
-                className="hidden  text-xs p-1 lg:btn-primary rounded md:btn md:btn-primary md:text-xs whitespace-nowrap shadow-md shadow-slate-800 md:grid"
+                className="hidden text-xs p-1 lg:btn-primary rounded md:btn md:btn-primary md:text-xs whitespace-nowrap shadow-md shadow-slate-800 md:grid"
               >
                 {text}
               </NavLink>
@@ -59,15 +59,21 @@ const NabNew = ({
         >
           {hamburgerToggle ? <IoIosClose /> : <RxHamburgerMenu />}
         </summary>
+
         <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-24 translate-x-[-10px]">
           {DataNavLink.map((item) => {
-            const { id, text, url } = item;
+            const { id, url, text } = item;
             return (
               <li key={id}>
                 <Link to={url}>{text}</Link>
               </li>
             );
           })}
+          <li>
+            <button onClick={() => setToggleNavbar(!toggleNavbar)}>
+              {toggleNavbar ? <BsFillSunFill /> : <IoMdMoon />}
+            </button>
+          </li>
         </ul>
       </details>
     </div>
