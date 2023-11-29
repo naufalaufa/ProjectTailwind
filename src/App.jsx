@@ -6,8 +6,6 @@ import "react-toastify/dist/ReactToastify.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Blogs, ErrorPage, HomeBlog, LandingPage, SingleBlogs } from "./Pages";
 
-import { loader as SingleBlogsLoader } from "./pages/SingleBlogs";
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,7 +27,6 @@ const router = createBrowserRouter([
       {
         path: "blogs/:id",
         element: <SingleBlogs />,
-        loader: SingleBlogsLoader,
       },
     ],
   },

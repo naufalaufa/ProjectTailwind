@@ -11,13 +11,8 @@ import {
 } from "../Data/DataSingleBlogs";
 import { CardSingleBlogs, Footer } from "../components";
 
-export const loader = ({ params }) => {
-  const { id } = params;
-  return { id };
-};
-
 const SingleBlogs = () => {
-  const { id } = useLoaderData();
+  const { id } = useParams();
 
   const data = () => {
     switch (id) {
