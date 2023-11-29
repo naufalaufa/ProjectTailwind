@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import {
   DataSingle1,
   DataSingle2,
@@ -11,9 +11,13 @@ import {
 } from "../Data/DataSingleBlogs";
 import { CardSingleBlogs, Footer } from "../components";
 
+export const loader = ({ params }) => {
+  const { id } = params;
+  return { id };
+};
+
 const SingleBlogs = () => {
-  const { id } = useParams();
-  console.log(id);
+  const { id } = useLoaderData();
 
   const data = () => {
     switch (id) {

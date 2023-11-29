@@ -17,4 +17,13 @@ export const DataProject = [
       "Cocktail Search Engine Using Technology such as react , react query , react router. visit link if you want see the project",
     github: "https://github.com/naufalaufa/searchCocktail",
   },
+  {
+    id: 3,
+    img: "commerce.jpg",
+    url: "https://naufal-commerc.vercel.app/",
+    text: "Simple Commerce",
+    article:
+      "Simple Commerce Project Using Technology such as react , Redux Toolkit. visit link if you want see the project",
+    github: "https://github.com/naufalaufa/naufal-commerc",
+  },
 ];
