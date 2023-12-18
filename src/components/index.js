@@ -18,3 +18,4 @@ export { default as BlogHome } from "./Element/BlogHome";
 export { default as CardSingleBlogs } from "./Card/CardSingleBlogs";
 export { default as Loading } from "./Element/Loading";
 export { default as Error } from "./ErrorComponent/Error";
+export { default as Experiences } from "./Element/Experiences";

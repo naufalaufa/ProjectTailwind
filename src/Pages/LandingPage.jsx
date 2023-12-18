@@ -4,6 +4,7 @@ import {
   AboutMe,
   ChatBuble,
   Contact,
+  Experiences,
   Footer,
   Info,
   ModalBox,
@@ -30,6 +31,7 @@ const LandingPage = () => {
         <Info toggleInfo={toggleInfo} setToggleInfo={setToggleInfo} />
         <AboutMe />
         <ChatBuble />
+        <Experiences />
         <Project />
         <Music />
         <Contact />
