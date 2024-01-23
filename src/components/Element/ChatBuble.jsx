@@ -14,7 +14,7 @@ const ChatBuble = () => {
         <div className="chat chat-start " data-aos="fade-up">
           <div className="chat-image avatar">
             <div className="w-10 rounded-full">
-              <img src={meee} className="object-contain bg-center" />
+              <img src={meee} alt={meee} className="object-contain bg-center" />
             </div>
           </div>
           <div className="chat-header">
@@ -36,7 +36,7 @@ const ChatBuble = () => {
         >
           <div className="chat-image avatar">
             <div className="w-10 rounded-full">
-              <img src={anonymous} />
+              <img src={anonymous} alt={anonymous} />
             </div>
           </div>
           <div className="chat-header mt-5">
@@ -71,7 +71,7 @@ const ChatBuble = () => {
         >
           <div className="chat-image avatar">
             <div className="w-10 rounded-full">
-              <img src={meee} alt="error" />
+              <img src={meee} alt={meee} />
             </div>
           </div>
           <div className="chat-header mt-10">

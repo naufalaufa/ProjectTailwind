@@ -5,7 +5,6 @@ import {
   ChatBuble,
   Contact,
   Experiences,
-  Footer,
   Info,
   ModalBox,
   ModalBoxContact,
@@ -14,6 +13,7 @@ import {
 } from "../components";
 import { ToastContainer } from "react-toastify";
 import { useState } from "react";
+import Footer2 from "../components/Element/Footer2";
 
 const LandingPage = () => {
   const { isOpen } = useSelector((state) => state.show);
@@ -35,7 +35,7 @@ const LandingPage = () => {
         <Project />
         <Music />
         <Contact />
-        <Footer />
+        <Footer2 />
       </div>
     </>
   );

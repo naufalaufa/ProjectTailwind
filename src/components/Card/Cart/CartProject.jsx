@@ -7,7 +7,7 @@ const CartProject = ({ img, url, text, article, github }) => {
       <div className="w-[300px]  sm:w-[600px] bg-gradient-to-r from-slate-50 to-blue-400 p-10 rounded-xl gap-5 shadow-md shadow-slate-800 ">
         <div>
           <p className="font-bold text-xl sm:text-2xl mb-3">{text}</p>
-          <img src={img} alt={text} />
+          <img src={img} alt={img} />
         </div>
         <article>
           <p className="mt-4">{article}</p>

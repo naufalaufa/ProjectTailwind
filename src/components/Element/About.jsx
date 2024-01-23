@@ -14,7 +14,7 @@ const About = () => {
           <div className="absolute grid place-content-center p-1 w-16 h-16 bg-gradient-to-r from-slate-400 to-blue-600 rounded-full shadow-md shadow-slate-800 top-8 right-[-20px] sm:hidden ">
             <img
               src={LogoIcon}
-              alt="err"
+              alt="logo logo-icon"
               className="object-contain bg-center w-full"
             />
           </div>
@@ -45,7 +45,7 @@ const About = () => {
         <img
           src={LogoIcon}
           className=" sm:w-[100%] max-w-[400px] max-h-[400px] m-auto hidden sm:block"
-          alt="error"
+          alt="logo logo-icon"
         />
       </div>
     </div>

@@ -21,7 +21,7 @@ const Music = () => {
         data-aos="fade-up"
         className=" bg-gradient-to-r from-green-950 to-slate-600 text-white py-5 rounded"
       >
-        <h1 className="text-center text-xl sm:text-4xl font-bold p-5">
+        <h1 className="text-center text-xl sm:text-4xl font-bold p-5 opal">
           Top 10 Favorite Music
         </h1>
         <div className="grid sm:grid-cols-2 gap-4 ">

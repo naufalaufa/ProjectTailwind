@@ -8,6 +8,7 @@ import insomnia from "../assets/insomnia.jpg";
 import Bule from "../assets/buleeee.png";
 import MasaKecil from "../assets/masaKecil.jpg";
 import { Link } from "react-router-dom";
+import Footer2 from "../components/Element/Footer2";
 
 const Blogs = () => {
   return (
@@ -72,7 +73,7 @@ const Blogs = () => {
             date="14 November 2023"
           />
         </div>
-        <Footer />
+        <Footer2 />
       </div>
     </>
   );

@@ -8,7 +8,11 @@ const Experiences = () => {
       <div className="justify-evenly mt-32 bg-gradient-to-r from-blue-100 to-blue-600 p-5 rounded shadow-md shadow-slate-800">
         <div>
           <h1 className="font-bold">Front End Developer</h1>
-          <div className="flex whitespace-nowrap gap-5">
+          <div
+            className="flex whitespace-nowrap gap-5"
+            data-aos="zoon-in"
+            data-aos-delay="200"
+          >
             <p>
               <HiOfficeBuilding size={25} className="inline-block" /> Cretivox
             </p>

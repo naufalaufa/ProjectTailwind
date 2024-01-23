@@ -5,22 +5,22 @@ const AvatarGroup = ({ Me, Meee, cibereum, akoh }) => {
     <>
       <div className="avatar">
         <div className="w-12">
-          <img src={Me} alt="error" />
+          <img src={Me} alt={Me} />
         </div>
       </div>
       <div className="avatar">
         <div className="w-12">
-          <img src={Meee} alt="error" />
+          <img src={Meee} alt={Me} />
         </div>
       </div>
       <div className="avatar">
         <div className="w-12">
-          <img src={cibereum} alt="error" />
+          <img src={cibereum} alt={cibereum} />
         </div>
       </div>
       <div className="avatar placeholder">
         <div className="w-12 bg-neutral-focus text-neutral-content">
-          <img src={akoh} alt="error" />
+          <img src={akoh} alt={akoh} />
         </div>
       </div>
     </>
