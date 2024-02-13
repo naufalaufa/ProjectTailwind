@@ -26,4 +26,13 @@ export const DataProject = [
       "Simple Commerce Project Using Technology such as react , Redux Toolkit. visit link if you want see the project",
     github: "https://github.com/naufalaufa/naufal-commerc",
   },
+  {
+    id: 4,
+    img: "valentine.png",
+    url: "https://valentine-xi-mocha.vercel.app/",
+    text: "Valentine Message",
+    article:
+      "Valentine message project using technology such as react , antDesign , React type animation",
+    github: "https://github.com/naufalaufa/valentine",
+  },
 ];
