@@ -10,7 +10,7 @@ const ChatBuble = () => {
 
   return (
     <div className="flex justify-center mt-20 sm:mt-64 md:mt-[300px] lg:mt-[300px] xl:mt-5">
-      <div className="w-full h-full max-w-[1000px] m-auto mt-[700px] ">
+      <div className="w-full h-full max-w-[1000px] m-auto mt-[900px] ">
         <div className="chat chat-start " data-aos="fade-up">
           <div className="chat-image avatar">
             <div className="w-10 rounded-full">

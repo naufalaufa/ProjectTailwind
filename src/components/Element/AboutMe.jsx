@@ -7,10 +7,16 @@ import { useDispatch, useSelector } from "react-redux";
 import { IconBox } from "../../Data/DataBoxTechStack";
 import { showBoxContact } from "../../features/showBoxContact";
 import AvatarGroup from "./AvatarGroup";
+import { QRCode, Space } from "antd";
+import { FaWhatsappSquare } from "react-icons/fa";
+import { useState } from "react";
 
 const AboutMe = () => {
   const dispatch = useDispatch();
   const { isOpenContact } = useSelector((state) => state.showContact);
+  const [valueBarcode, setValueBarcode] = useState(
+    "https://wa.me/6285156802452"
+  );
 
   return (
     <div
@@ -69,6 +75,19 @@ const AboutMe = () => {
                 );
               })}
             </div>
+            <Space className="mt-20 grid place-content-center">
+              <div className="bg-white p-8 rounded-lg shadow-sm shadow-slate-700">
+                <QRCode
+                  value={valueBarcode || "-"}
+                  size={150}
+                  className="m-auto"
+                />
+                <div className="flex items-center justify-center">
+                  <FaWhatsappSquare size={30} className="mt-4 text-green-600" />
+                  <p className="mt-3 text-black">Link whatsaap number</p>
+                </div>
+              </div>
+            </Space>
           </div>
         </div>
       </div>

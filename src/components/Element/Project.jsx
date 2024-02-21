@@ -1,5 +1,6 @@
 import { DataProject } from "../../Data/DataProject";
 import CartProject from "../Card/Cart/CartProject";
+import "swiper/css";
 
 const Project = () => {
   return (
@@ -12,7 +13,7 @@ const Project = () => {
       <div className="text-center text-4xl font-bold 2xl:text-5xl ">
         <span className="border-b-4">Project</span>
       </div>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3  gap-4 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-4 mt-10">
         {DataProject.map((item) => {
           return <CartProject key={item.id} url={item.url} {...item} />;
         })}
