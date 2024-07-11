@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BlogHome, Footer } from "../components";
+import { BlogHome } from "../components";
 import Footer2 from "../components/Element/Footer2";
 
 const HomeBlog = () => {

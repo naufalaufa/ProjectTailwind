@@ -36,7 +36,7 @@ AOS.init();
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-black">
       <RouterProvider router={router} />
     </div>
   );

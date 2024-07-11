@@ -21,7 +21,7 @@ const LandingPage = () => {
   const [toggleInfo, setToggleInfo] = useState(false);
   return (
     <>
-      <div className="w-[100%] max-w-[95vw] m-auto ">
+      <div className="w-[100%] max-w-[95vw] m-auto  ">
         <ToastContainer position="bottom-center" autoClose={50} />
         {isOpen && <ModalBox />}
         {isOpenContact && <ModalBoxContact />}
