@@ -114,3 +114,14 @@ export const DataSingle8 = [
     ],
   },
 ];
+export const DataSingle9 = [
+  {
+    id: 9,
+    name: "Cretivox",
+    date: "07 July 2024",
+    image: "/cretivox.png",
+    text: [
+      "First experience internship at cretivox , wow ( tanda seru ) , kok gua bisa ada disini , gua juga bingung karena dulu cuma sering nonton konten-kontennya di youtube dengan talent dan peserta yang blak blakan dan apa adanya  dan sekarang gua intern di tempat itu ... ( CRETIVOX BROADCASTING NETWORK ) dipertemukan 12 orang keren dengan expertise dibidangnya masing masing , pas sesi interview kaget banget rame banget yang interview anj, grogi , kaget , sempet ditanya lo mau menjadi orang yang seperti apa? , gua bilang mau berguna buat banyak orang , terus pada bilang dan teriak ( Ah mainstream lo ) terus gua bilang lagi , ( Gue mau jadi karakter deadpool ) terus pada tepuk tangan kan , dalam hati berkata ( LAH OMAIGAT ) ",
+    ],
+  },
+];

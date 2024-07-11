@@ -1,4 +1,4 @@
-import { CardBlogs, Footer } from "../components";
+import { CardBlogs } from "../components";
 import Hujan from "../assets/hujan.jpg";
 import Surken from "../assets/dirikuSurken.jpg";
 import masaSMK from "../assets/masaSMK.jpg";
@@ -7,6 +7,7 @@ import Senja from "../assets/senja.jpg";
 import insomnia from "../assets/insomnia.jpg";
 import Bule from "../assets/buleeee.png";
 import MasaKecil from "../assets/masaKecil.jpg";
+import Cretivox from "../assets/cretivox.png";
 import { Link } from "react-router-dom";
 import Footer2 from "../components/Element/Footer2";
 
@@ -71,6 +72,12 @@ const Blogs = () => {
             image={MasaKecil}
             title="Beranjak Dewasa"
             date="14 November 2023"
+          />
+          <CardBlogs
+            id={9}
+            image={Cretivox}
+            title="Cretivox"
+            date="07 July 2024"
           />
         </div>
         <Footer2 />

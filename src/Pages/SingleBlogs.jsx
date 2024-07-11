@@ -8,6 +8,7 @@ import {
   DataSingle6,
   DataSingle7,
   DataSingle8,
+  DataSingle9,
 } from "../Data/DataSingleBlogs";
 import { CardSingleBlogs, Footer } from "../components";
 
@@ -32,6 +33,8 @@ const SingleBlogs = () => {
         return DataSingle7;
       case "8":
         return DataSingle8;
+      case "9":
+        return DataSingle9;
       default:
         return null;
     }
