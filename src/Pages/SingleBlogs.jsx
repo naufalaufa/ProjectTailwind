@@ -11,6 +11,7 @@ import {
   DataSingle9,
 } from "../Data/DataSingleBlogs";
 import { CardSingleBlogs, Footer } from "../components";
+import Footer2 from "../components/Element/Footer2";
 
 const SingleBlogs = () => {
   const { id } = useParams();
@@ -51,7 +52,7 @@ const SingleBlogs = () => {
             Back Home
           </Link>
         </div>
-        <Footer />
+        <Footer2 />
       </div>
     </>
   );
