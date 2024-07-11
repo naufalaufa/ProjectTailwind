@@ -4,7 +4,7 @@ import { SiTiktok } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <div className="grid place-items-center bg-slate-800 p-10 rounded text-white font-bold relative mt-5 w-full min-w-[300px] sm:grid sm:grid-cols-2 sm:place-items-center ">
+    <div className="grid place-items-center sm:place-content-center  place-content-center  bg-slate-800 p-10 rounded text-white font-bold relative mt-5 w-full min-w-[300px] sm:grid sm:grid-cols-2 sm:place-items-center ">
       <div>
         <h1 className="text-sm sm:text-2xl mt-5 whitespace-nowrap ">
           Mochamad Naufal Aufa Rifqi

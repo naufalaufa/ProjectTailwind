@@ -13,17 +13,17 @@ const NabNew = ({
   setHamburgetToggle,
 }) => {
   return (
-    <div className="navbar bg-white fixed grid grid-flow-col z-[999999999999] top-0 left-0 right-0  ">
-      <div className="flex-1 navbar-start lg:ml-10">
+    <div className="navbar bg-white fixed grid justify-between w-full place-items-center grid-flow-col z-[999999999999] top-0 left-0 right-0  ">
+      <div>
         <Link to="/" className="btn btn-ghost normal-case text-xs sm:text-xl">
           <p>
-            <span className="text-blue-500 mr-1 shadow-sm">Mochamad</span>Naufal
-            Aufa Rifqi
+            <span className="text-blue-500  shadow-sm mx-1">Mochamad</span>
+            Naufal Aufa Rifqi
           </p>
         </Link>
       </div>
-      <div className="navbar navbar-center max-w-max">
-        <section className="grid grid-flow-col gap-5">
+      <div className="navbar max-w-max">
+        <section className="flex gap-3">
           {DataNavLink.map((item) => {
             const { id, url, text } = item;
             return (

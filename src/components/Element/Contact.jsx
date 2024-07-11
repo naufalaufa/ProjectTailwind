@@ -9,7 +9,7 @@ const Contact = ({ toggleNavbar }) => {
     <div
       data-aos="fade-up"
       data-aos-delay="200"
-      className="my-20 w-full min-w-[300px] m-auto"
+      className="my-20 w-full min-w-[300px] m-auto grid place-content-center"
       id="contact"
     >
       <div className="text-xl sm:text-4xl text-center font-bold">

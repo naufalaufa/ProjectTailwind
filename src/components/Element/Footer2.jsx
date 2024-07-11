@@ -6,7 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Footer2 = () => {
   return (
-    <div className="bg-blue-900 p-10 rounded w-full lg:grid md:grid md:grid-cols-4 lg:grid-cols-4 lg:place-items-start gap-28 text-center sm:text-start min-h-[200px] shadow-md shadow-slate-900">
+    <div className="bg-blue-900  p-10 rounded w-full lg:grid md:grid md:grid-cols-4 lg:grid-cols-4 lg:place-items-center gap-28 text-center sm:text-start min-h-[200px] shadow-md shadow-slate-900">
       <div className="my-5 text-center">
         <h1 className="font-bold text-white text-2xl whitespace-nowrap ">
           Naufal Aufa
